@@ -15,7 +15,6 @@ chefmate-ai/
 │       ├── DTOs/
 │       ├── Services/
 │       └── Program.cs
-├── docker-compose.yml      # PostgreSQL for local development
 └── README.md
 ```
 
@@ -23,30 +22,28 @@ chefmate-ai/
 
 - [Node.js](https://nodejs.org/) 20+
 - [.NET SDK](https://dotnet.microsoft.com/download) 9
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/) (recommended for PostgreSQL)
+- A [Neon](https://neon.tech) PostgreSQL database (free tier)
 
-## PostgreSQL (development)
+## PostgreSQL
 
-**Recommended: Docker (Option B)** — free, isolated, and easy to reset. No system-wide PostgreSQL install required.
+This project uses **Neon** (hosted PostgreSQL). No Docker or local Postgres install is required.
 
-```bash
-docker compose up -d
-```
+Database password and JWT signing key are **not** stored in `appsettings.json`. Copy `.env.example` to `.env` in the repo root and fill in:
 
-Connection string (already in `appsettings.Development.json`):
+- `ConnectionStrings__DefaultConnection` — Neon connection string (includes the password)
+- `Jwt__Key` — at least 32 characters
 
-```
-Host=localhost;Port=5432;Database=chefmate;Username=chefmate;Password=chefmate_dev
-```
-
-**Option A — local install:** Install PostgreSQL from [postgresql.org](https://www.postgresql.org/download/) and create a matching database/user, then update the connection string.
+`.env` is gitignored. You can also set the same names as real environment variables; those win over `.env`.
 
 ## Getting started
 
 ### Backend
 
 ```bash
-cd server/Chefmate.API
+cp .env.example .env
+# edit .env with your Neon connection string and JWT key
+
+cd server/ChefMate.API
 dotnet restore
 dotnet run
 ```

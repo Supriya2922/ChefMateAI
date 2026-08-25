@@ -7,11 +7,14 @@ client/dist-ssr/
 server/**/bin/
 server/**/obj/
 
-# Environment & secrets
+# Environment & secrets — never commit real credentials
 .env
+.env.local
 .env.*
 !.env.example
 **/appsettings.Development.local.json
+**/appsettings.Secrets.json
+**/secrets.json
 
 # IDE
 .vscode/*
