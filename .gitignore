@@ -12,6 +12,7 @@ server/**/obj/
 .env.local
 .env.*
 !.env.example
+!**/.env.example
 **/appsettings.Development.local.json
 **/appsettings.Secrets.json
 **/secrets.json
