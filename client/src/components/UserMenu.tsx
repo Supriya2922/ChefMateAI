@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useAuth } from '../auth/AuthContext'
+import { userMenu } from '../content/siteCopy'
 import { formatDietary, initialsFromName } from '../lib/format'
 
 export function UserMenu() {
@@ -85,7 +86,7 @@ export function UserMenu() {
               </div>
             </dl>
           ) : (
-            <p className="user-menu__empty">Preferences not set yet.</p>
+            <p className="user-menu__empty">{userMenu.empty}</p>
           )}
 
           {profile && profile.allergies.length > 0 ? (
@@ -114,7 +115,7 @@ export function UserMenu() {
               className="btn btn--ghost"
               onClick={() => setOpen(false)}
             >
-              Edit preferences
+              {userMenu.edit}
             </Link>
             <button type="button" className="btn btn--text" onClick={logout}>
               Sign out

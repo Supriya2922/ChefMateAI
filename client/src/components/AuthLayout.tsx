@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react'
 import { Link } from 'react-router-dom'
+import { auth, brand } from '../content/siteCopy'
 
 type AuthLayoutProps = {
   title: string
@@ -12,17 +13,15 @@ export function AuthLayout({ title, subtitle, children, footer }: AuthLayoutProp
   return (
     <div className="auth">
       <section className="auth__atmosphere" aria-hidden="true">
-        <p className="auth__eyebrow">ChefMate</p>
-        <h1 className="auth__headline">Cook with what you love.</h1>
-        <p className="auth__lede">
-          A quieter kitchen companion — recipes that listen to your taste, time, and table.
-        </p>
+        <p className="auth__eyebrow">{auth.eyebrow}</p>
+        <h1 className="auth__headline">{auth.headline}</h1>
+        <p className="auth__lede">{auth.lede}</p>
       </section>
 
       <section className="auth__panel">
         <div className="auth__card">
           <p className="auth__brand">
-            <Link to="/login">ChefMate</Link>
+            <Link to="/login">{brand.name}</Link>
           </p>
           <h2 className="auth__title">{title}</h2>
           <p className="auth__subtitle">{subtitle}</p>

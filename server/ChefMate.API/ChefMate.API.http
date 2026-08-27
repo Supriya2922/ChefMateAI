@@ -45,3 +45,53 @@ Content-Type: application/json
   "allergies": ["Peanuts"],
   "cuisines": ["Indian", "Italian", "Thai"]
 }
+
+### List pantry
+GET {{ChefMate.API_HostAddress}}/api/pantry
+Authorization: Bearer {{token}}
+
+### List pantry categories
+GET {{ChefMate.API_HostAddress}}/api/pantry/categories
+Authorization: Bearer {{token}}
+
+### Add pantry item
+POST {{ChefMate.API_HostAddress}}/api/pantry
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "name": "Tomato",
+  "quantity": 4,
+  "unit": "Piece",
+  "categoryName": "Produce"
+}
+
+### Search pantry
+GET {{ChefMate.API_HostAddress}}/api/pantry?search=tom&expiryStatus=ExpiringSoon
+Authorization: Bearer {{token}}
+
+### Update pantry quantity
+PATCH {{ChefMate.API_HostAddress}}/api/pantry/1/quantity
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "quantity": 6
+}
+
+### Update pantry item
+PUT {{ChefMate.API_HostAddress}}/api/pantry/1
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "name": "Tomato",
+  "quantity": 6,
+  "unit": "Piece",
+  "categoryName": "Produce",
+  "expiryDate": "2026-09-01"
+}
+
+### Delete pantry item
+DELETE {{ChefMate.API_HostAddress}}/api/pantry/1
+Authorization: Bearer {{token}}

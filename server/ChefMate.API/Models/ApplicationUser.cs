@@ -11,4 +11,8 @@ public class ApplicationUser : IdentityUser
     public ICollection<UserAllergy> UserAllergies { get; set; } = new List<UserAllergy>();
 
     public ICollection<UserCuisine> UserCuisines { get; set; } = new List<UserCuisine>();
+
+    public ICollection<PantryItem> PantryItems { get; set; } = new List<PantryItem>();
+
+    public ICollection<PantryCategory> PantryCategories { get; set; } = new List<PantryCategory>();
 }

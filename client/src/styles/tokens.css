@@ -11,6 +11,8 @@
   --color-line: rgba(196, 92, 38, 0.18);
   --color-danger: #b42318;
   --color-danger-bg: #fde8e6;
+  --color-warning: #9a6700;
+  --color-warning-bg: #fdf0d5;
 
   --font-display: 'Fraunces', Georgia, serif;
   --font-body: 'Outfit', system-ui, sans-serif;
@@ -23,6 +25,7 @@
   --shadow-soft: 0 18px 40px -24px rgba(44, 24, 16, 0.35);
   --shadow-menu: 0 16px 48px -16px rgba(44, 24, 16, 0.28);
 
+  --nav-link-active: var(--color-terracotta);
   --header-height: 76px;
 }
 

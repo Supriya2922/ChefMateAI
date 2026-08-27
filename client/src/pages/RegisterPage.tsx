@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import { ApiError } from '../api/http'
 import { useAuth } from '../auth/AuthContext'
 import { AuthLayout, Field, FormError } from '../components/AuthLayout'
+import { auth } from '../content/siteCopy'
 
 export function RegisterPage() {
   const { register } = useAuth()
@@ -37,11 +38,11 @@ export function RegisterPage() {
 
   return (
     <AuthLayout
-      title="Join the table"
-      subtitle="A few details, then we cook."
+      title={auth.register.title}
+      subtitle={auth.register.subtitle}
       footer={
         <>
-          Already have an account? <Link to="/login">Sign in</Link>
+          {auth.register.footerLead} <Link to="/login">{auth.register.footerLink}</Link>
         </>
       }
     >
@@ -81,9 +82,9 @@ export function RegisterPage() {
           autoComplete="new-password"
           required
         />
-        <p className="auth__hint">At least 8 characters, with upper, lower, and a number.</p>
+        <p className="auth__hint">{auth.register.passwordHint}</p>
         <button className="btn btn--primary" type="submit" disabled={submitting}>
-          {submitting ? 'Creating account…' : 'Create account'}
+          {submitting ? auth.register.submitting : auth.register.submit}
         </button>
       </form>
     </AuthLayout>

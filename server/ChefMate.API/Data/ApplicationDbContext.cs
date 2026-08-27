@@ -21,6 +21,10 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
 
     public DbSet<UserCuisine> UserCuisines => Set<UserCuisine>();
 
+    public DbSet<PantryCategory> PantryCategories => Set<PantryCategory>();
+
+    public DbSet<PantryItem> PantryItems => Set<PantryItem>();
+
     protected override void OnModelCreating(ModelBuilder builder)
     {
         base.OnModelCreating(builder);
@@ -121,6 +125,60 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
             entity.HasOne(uc => uc.Cuisine)
                 .WithMany(c => c.UserCuisines)
                 .HasForeignKey(uc => uc.CuisineId)
+                .OnDelete(DeleteBehavior.Restrict);
+        });
+
+        builder.Entity<PantryCategory>(entity =>
+        {
+            entity.Property(c => c.Name)
+                .HasMaxLength(100)
+                .IsRequired();
+
+            entity.Property(c => c.NormalizedName)
+                .HasMaxLength(100)
+                .HasComputedColumnSql("lower(\"Name\")", stored: true);
+
+            entity.HasIndex(c => new { c.UserId, c.NormalizedName })
+                .IsUnique();
+
+            entity.HasOne(c => c.User)
+                .WithMany(u => u.PantryCategories)
+                .HasForeignKey(c => c.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+        });
+
+        builder.Entity<PantryItem>(entity =>
+        {
+            entity.ToTable(t =>
+                t.HasCheckConstraint("CK_PantryItems_Quantity", "\"Quantity\" >= 0"));
+
+            entity.Property(p => p.Name)
+                .HasMaxLength(100)
+                .IsRequired();
+
+            entity.Property(p => p.NormalizedName)
+                .HasMaxLength(100)
+                .HasComputedColumnSql("lower(\"Name\")", stored: true);
+
+            entity.Property(p => p.Quantity)
+                .HasPrecision(10, 2);
+
+            entity.Property(p => p.Unit)
+                .HasConversion<string>()
+                .HasMaxLength(32)
+                .IsRequired();
+
+            entity.HasIndex(p => new { p.UserId, p.NormalizedName })
+                .IsUnique();
+
+            entity.HasOne(p => p.User)
+                .WithMany(u => u.PantryItems)
+                .HasForeignKey(p => p.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            entity.HasOne(p => p.Category)
+                .WithMany(c => c.Items)
+                .HasForeignKey(p => p.CategoryId)
                 .OnDelete(DeleteBehavior.Restrict);
         });
     }

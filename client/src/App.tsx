@@ -1,8 +1,13 @@
 import { Navigate, Route, Routes } from 'react-router-dom'
 import { ProtectedLayout, PublicOnly } from './components/ProtectedLayout'
+import { AiPage } from './pages/AiPage'
+import { CookbookPage } from './pages/CookbookPage'
 import { DashboardPage } from './pages/DashboardPage'
+import { ExplorePage } from './pages/ExplorePage'
 import { LoginPage } from './pages/LoginPage'
+import { PantryPage } from './pages/PantryPage'
 import { ProfilePage } from './pages/ProfilePage'
+import { RecipesPage } from './pages/RecipesPage'
 import { RegisterPage } from './pages/RegisterPage'
 
 export default function App() {
@@ -26,6 +31,11 @@ export default function App() {
       />
       <Route element={<ProtectedLayout />}>
         <Route path="/dashboard" element={<DashboardPage />} />
+        <Route path="/recipes" element={<RecipesPage />} />
+        <Route path="/pantry" element={<PantryPage />} />
+        <Route path="/ai" element={<AiPage />} />
+        <Route path="/cookbook" element={<CookbookPage />} />
+        <Route path="/explore" element={<ExplorePage />} />
         <Route path="/profile" element={<ProfilePage />} />
       </Route>
       <Route path="/" element={<Navigate to="/dashboard" replace />} />

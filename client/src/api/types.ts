@@ -38,3 +38,61 @@ export type UpdateProfilePayload = {
   allergies: string[]
   cuisines: string[]
 }
+
+export type PantryUnit =
+  | 'Piece'
+  | 'Gram'
+  | 'Kilogram'
+  | 'Milliliter'
+  | 'Liter'
+  | 'Bunch'
+  | 'Pack'
+  | 'Cup'
+  | 'Tablespoon'
+  | 'Teaspoon'
+
+export type ExpiryStatus = 'None' | 'Fresh' | 'ExpiringSoon' | 'Expired'
+
+export type PantryCategory = {
+  id: number
+  name: string
+}
+
+export type PantryItem = {
+  id: number
+  name: string
+  quantity: number
+  unit: PantryUnit
+  category: PantryCategory
+  expiryDate: string | null
+  expiryStatus: ExpiryStatus
+  daysUntilExpiry: number | null
+  createdAt: string
+  updatedAt: string
+}
+
+export type PantrySummary = {
+  totalCount: number
+  expiringSoonCount: number
+  expiredCount: number
+}
+
+export type PantryListResponse = {
+  items: PantryItem[]
+  summary: PantrySummary
+}
+
+export type PantryQuery = {
+  search?: string
+  categoryId?: number
+  expiryStatus?: ExpiryStatus
+  sort?: string
+}
+
+export type PantryItemPayload = {
+  name: string
+  quantity: number
+  unit: PantryUnit
+  categoryName: string
+  expiryDate?: string | null
+}

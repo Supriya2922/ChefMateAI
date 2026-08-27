@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import { ApiError } from '../api/http'
 import { useAuth } from '../auth/AuthContext'
 import { AuthLayout, Field, FormError } from '../components/AuthLayout'
+import { auth } from '../content/siteCopy'
 
 export function LoginPage() {
   const { login } = useAuth()
@@ -28,11 +29,11 @@ export function LoginPage() {
 
   return (
     <AuthLayout
-      title="Welcome back"
-      subtitle="Sign in to your kitchen."
+      title={auth.login.title}
+      subtitle={auth.login.subtitle}
       footer={
         <>
-          New here? <Link to="/register">Create an account</Link>
+          {auth.login.footerLead} <Link to="/register">{auth.login.footerLink}</Link>
         </>
       }
     >
@@ -57,7 +58,7 @@ export function LoginPage() {
           required
         />
         <button className="btn btn--primary" type="submit" disabled={submitting}>
-          {submitting ? 'Signing in…' : 'Sign in'}
+          {submitting ? auth.login.submitting : auth.login.submit}
         </button>
       </form>
     </AuthLayout>
