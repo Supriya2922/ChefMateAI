@@ -1,3 +1,4 @@
+import { AnimatePresence, motion } from 'framer-motion'
 import { useCallback, useEffect, useState } from 'react'
 import {
   deletePantryItem,
@@ -13,7 +14,12 @@ import { PantryList } from '../components/pantry/PantryList'
 import { PantrySummaryBar } from '../components/pantry/PantrySummary'
 import { PantryToolbar } from '../components/pantry/PantryToolbar'
 import { FormError } from '../components/AuthLayout'
+import { AnimatedModal } from '../components/motion/AnimatedModal'
+import { PageIntro, PageIntroTitle } from '../components/motion/PageIntro'
 import { pantryPage, pantrySection } from '../content/siteCopy'
+import { useMotionVariants } from '../hooks/useReducedMotion'
+import { fadeIn } from '../motion/variants'
+import { pageTransition } from '../motion/transitions'
 
 const emptySummary: PantrySummary = {
   totalCount: 0,
@@ -35,6 +41,7 @@ export function PantryPage() {
   const [confirmingId, setConfirmingId] = useState<number | null>(null)
   const [quantityBusyId, setQuantityBusyId] = useState<number | null>(null)
 
+  const contentVariants = useMotionVariants(fadeIn)
   const filtersActive = Boolean(search || categoryId !== '' || expiryStatus)
 
   useEffect(() => {
@@ -67,21 +74,6 @@ export function PantryPage() {
   useEffect(() => {
     void load()
   }, [load])
-
-  useEffect(() => {
-    if (!editor) {
-      return
-    }
-
-    function onKeyDown(event: KeyboardEvent) {
-      if (event.key === 'Escape') {
-        setEditor(null)
-      }
-    }
-
-    window.addEventListener('keydown', onKeyDown)
-    return () => window.removeEventListener('keydown', onKeyDown)
-  }, [editor])
 
   async function handleSaved() {
     setEditor(null)
@@ -140,15 +132,22 @@ export function PantryPage() {
     setExpiryStatus('')
   }
 
+  const contentKey = loading
+    ? 'loading'
+    : errors.length > 0 && items.length === 0
+      ? 'error'
+      : items.length === 0
+        ? 'empty'
+        : 'list'
+
   return (
     <main className="page">
-      <header className="page__intro">
-        <p className="page__eyebrow">{pantrySection.eyebrow}</p>
-        <div className="page__title-row">
-          <h1 className="page__title">{pantrySection.title}</h1>
-        </div>
-        <p className="page__lede">{pantrySection.lede}</p>
-      </header>
+      <PageIntro
+        eyebrow={pantrySection.eyebrow}
+        title={<PageIntroTitle>{pantrySection.title}</PageIntroTitle>}
+        lede={pantrySection.lede}
+        titleRow
+      />
 
       <div className="panel pantry-panel">
         <div className="pantry-panel__toolbar">
@@ -173,55 +172,57 @@ export function PantryPage() {
         <PantrySummaryBar summary={summary} />
         <FormError messages={errors} />
 
-        {loading ? (
-          <p className="pantry-status">{pantryPage.loading}</p>
-        ) : errors.length > 0 && items.length === 0 ? (
-          <button type="button" className="btn btn--ghost btn--inline" onClick={() => void load()}>
-            {pantryPage.retry}
-          </button>
-        ) : items.length === 0 ? (
-          <PantryEmptyState
-            filtered={filtersActive || summary.totalCount > 0}
-            onAdd={() => setEditor('new')}
-            onClearFilters={clearFilters}
-          />
-        ) : (
-          <PantryList
-            items={items}
-            confirmingId={confirmingId}
-            quantityBusyId={quantityBusyId}
-            onEdit={setEditor}
-            onAskDelete={setConfirmingId}
-            onCancelDelete={() => setConfirmingId(null)}
-            onConfirmDelete={(id) => void handleConfirmDelete(id)}
-            onQuantityChange={(item, quantity) => void handleQuantityChange(item, quantity)}
-          />
-        )}
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={contentKey}
+            variants={contentVariants}
+            initial="hidden"
+            animate="visible"
+            exit="exit"
+            transition={pageTransition}
+          >
+            {loading ? (
+              <p className="pantry-status">{pantryPage.loading}</p>
+            ) : errors.length > 0 && items.length === 0 ? (
+              <button type="button" className="btn btn--ghost btn--inline" onClick={() => void load()}>
+                {pantryPage.retry}
+              </button>
+            ) : items.length === 0 ? (
+              <PantryEmptyState
+                filtered={filtersActive || summary.totalCount > 0}
+                onAdd={() => setEditor('new')}
+                onClearFilters={clearFilters}
+              />
+            ) : (
+              <PantryList
+                items={items}
+                confirmingId={confirmingId}
+                quantityBusyId={quantityBusyId}
+                onEdit={setEditor}
+                onAskDelete={setConfirmingId}
+                onCancelDelete={() => setConfirmingId(null)}
+                onConfirmDelete={(id) => void handleConfirmDelete(id)}
+                onQuantityChange={(item, quantity) => void handleQuantityChange(item, quantity)}
+              />
+            )}
+          </motion.div>
+        </AnimatePresence>
       </div>
 
-      {editor ? (
-        <div
-          className="pantry-overlay"
-          role="presentation"
-          onClick={() => setEditor(null)}
-        >
-          <div
-            className="panel pantry-dialog"
-            role="dialog"
-            aria-modal="true"
-            onClick={(event) => event.stopPropagation()}
-          >
-            <PantryItemForm
-              key={editor === 'new' ? 'new' : editor.id}
-              item={editor === 'new' ? null : editor}
-              categories={categories}
-              onClose={() => setEditor(null)}
-              onSaved={handleSaved}
-              onDuplicate={handleDuplicate}
-            />
-          </div>
-        </div>
-      ) : null}
+      <AnimatedModal
+        open={editor !== null}
+        onClose={() => setEditor(null)}
+        dialogClassName="panel pantry-dialog"
+      >
+        <PantryItemForm
+          key={editor === 'new' ? 'new' : editor?.id}
+          item={editor === 'new' ? null : editor}
+          categories={categories}
+          onClose={() => setEditor(null)}
+          onSaved={handleSaved}
+          onDuplicate={handleDuplicate}
+        />
+      </AnimatedModal>
     </main>
   )
 }

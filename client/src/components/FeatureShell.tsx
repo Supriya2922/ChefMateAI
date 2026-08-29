@@ -1,5 +1,7 @@
 import { comingSoon, type SectionCopy } from '../content/siteCopy'
 import { FeatureCard } from './FeatureCard'
+import { PageIntro, PageIntroTitle } from './motion/PageIntro'
+import { StaggerGrid } from './motion/StaggerGrid'
 
 type FeatureShellProps = {
   copy: SectionCopy
@@ -9,16 +11,19 @@ type FeatureShellProps = {
 export function FeatureShell({ copy, showComingSoon = true }: FeatureShellProps) {
   return (
     <main className="page">
-      <header className="page__intro">
-        <p className="page__eyebrow">{copy.eyebrow}</p>
-        <div className="page__title-row">
-          <h1 className="page__title">{copy.title}</h1>
-          {showComingSoon ? <span className="badge badge--soon">{comingSoon}</span> : null}
-        </div>
-        <p className="page__lede">{copy.lede}</p>
-      </header>
+      <PageIntro
+        eyebrow={copy.eyebrow}
+        title={
+          <>
+            <PageIntroTitle>{copy.title}</PageIntroTitle>
+            {showComingSoon ? <span className="badge badge--soon">{comingSoon}</span> : null}
+          </>
+        }
+        lede={copy.lede}
+        titleRow
+      />
 
-      <section className="feature-grid" aria-label={copy.title}>
+      <StaggerGrid className="feature-grid" aria-label={copy.title}>
         {copy.features.map((feature) => (
           <FeatureCard
             key={feature.title}
@@ -26,7 +31,7 @@ export function FeatureShell({ copy, showComingSoon = true }: FeatureShellProps)
             description={feature.description}
           />
         ))}
-      </section>
+      </StaggerGrid>
     </main>
   )
 }

@@ -92,7 +92,7 @@ export const comingSoon = 'Coming soon'
 export const recipesSection: SectionCopy = {
   eyebrow: 'Recipes',
   title: 'Recipe library',
-  lede: 'Search, filter, and explore full nutrition details for every dish.',
+  lede: 'Browse curated dishes, filter by cuisine and diet, then open a full cook-along view.',
   features: [
     {
       title: 'Browse',
@@ -116,6 +116,53 @@ export const recipesSection: SectionCopy = {
     },
   ],
 }
+
+export const recipesPage = {
+  searchLabel: 'Search recipes',
+  searchPlaceholder: 'Search by name or description',
+  cuisineLabel: 'Cuisine',
+  allCuisines: 'All cuisines',
+  dietLabel: 'Diet',
+  allDiets: 'All diets',
+  difficultyLabel: 'Difficulty',
+  allDifficulties: 'All levels',
+  diets: {
+    Vegetarian: 'Vegetarian',
+    NonVegetarian: 'Non-Vegetarian',
+  },
+  difficulties: {
+    Easy: 'Easy',
+    Medium: 'Medium',
+    Hard: 'Hard',
+  },
+  emptyTitle: 'No recipes found',
+  emptyLede: 'Try a different search or clear your filters to see the full library.',
+  clearFilters: 'Clear filters',
+  loading: 'Loading recipes…',
+  loadError: 'Could not load recipes. Try again.',
+  retry: 'Try again',
+  moreTags: (count: number) => `+${count} more`,
+  cookTime: 'Time',
+  ingredients: 'Ingredients',
+  calories: 'Calories',
+} as const
+
+export const recipeDetailPage = {
+  backLabel: '← Back to recipes',
+  loading: 'Loading recipe…',
+  loadError: 'Could not load this recipe.',
+  notFound: 'This recipe could not be found.',
+  retry: 'Try again',
+  ingredients: 'Ingredients',
+  directions: 'Directions',
+  watchVideo: 'Watch on YouTube',
+  mealType: 'Meal',
+  diet: 'Diet',
+  difficulty: 'Difficulty',
+  cookTime: 'Time',
+  calories: 'Calories',
+  ingredientCount: 'Ingredients',
+} as const
 
 export const pantrySection: SectionCopy = {
   eyebrow: 'Pantry',

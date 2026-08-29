@@ -1,4 +1,8 @@
+import { AnimatePresence, motion } from 'framer-motion'
 import type { PantryItem } from '../../api/types'
+import { useReducedMotion } from '../../hooks/useReducedMotion'
+import { staggerItem } from '../../motion/variants'
+import { pageTransition } from '../../motion/transitions'
 import { PantryItemRow } from './PantryItemRow'
 
 type PantryListProps = {
@@ -22,21 +26,36 @@ export function PantryList({
   onConfirmDelete,
   onQuantityChange,
 }: PantryListProps) {
+  const reduced = useReducedMotion()
+  const itemVariants = reduced ? undefined : staggerItem
+  const transition = reduced ? { duration: 0 } : pageTransition
+
   return (
     <div className="pantry-list">
-      {items.map((item) => (
-        <PantryItemRow
-          key={item.id}
-          item={item}
-          confirming={confirmingId === item.id}
-          quantityBusy={quantityBusyId === item.id}
-          onEdit={() => onEdit(item)}
-          onAskDelete={() => onAskDelete(item.id)}
-          onCancelDelete={onCancelDelete}
-          onConfirmDelete={() => onConfirmDelete(item.id)}
-          onQuantityChange={(quantity) => onQuantityChange(item, quantity)}
-        />
-      ))}
+      <AnimatePresence initial={false}>
+        {items.map((item) => (
+          <motion.div
+            key={item.id}
+            layout={!reduced}
+            variants={itemVariants}
+            initial="hidden"
+            animate="visible"
+            exit={{ opacity: 0, x: -12 }}
+            transition={transition}
+          >
+            <PantryItemRow
+              item={item}
+              confirming={confirmingId === item.id}
+              quantityBusy={quantityBusyId === item.id}
+              onEdit={() => onEdit(item)}
+              onAskDelete={() => onAskDelete(item.id)}
+              onCancelDelete={onCancelDelete}
+              onConfirmDelete={() => onConfirmDelete(item.id)}
+              onQuantityChange={(quantity) => onQuantityChange(item, quantity)}
+            />
+          </motion.div>
+        ))}
+      </AnimatePresence>
     </div>
   )
 }

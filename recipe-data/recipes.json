@@ -1,0 +1,2926 @@
+[
+  {
+    "externalId": "53085",
+    "title": "15-minute chicken & halloumi burgers",
+    "description": "15-minute chicken & halloumi burgers - a chicken recipe from United States cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/vdwloy1713225718.jpg",
+    "instructions": "STEP 1\r\n\r\nPut the chicken breasts between two pieces of baking parchment and use a rolling pin to gently bash them until they are approximately 1cm thick. Cut each chicken breast into two even pieces.\r\n\r\nSTEP 2\r\n\r\nIf you're using a frying pan, heat two frying pans over medium-high heat, with one of them containing oil. Fry the chicken in the oiled pan for 3-4 mins on each side until they are cooked through. Season the chicken, reduce the heat, drizzle in the chilli sauce and half of the lemon juice, and cook for an additional 1-2 mins until the sauce is reduced. Remove the chicken from the heat.\r\n\r\nSTEP 3\r\n\r\nIf you're using an air-fryer, preheat it to 180C for 4 mins. Add the chicken to the air-fryer and cook for 12 mins. Drizzle over the chilli sauce and half the lemon juice and cook for an additional 1-2 mins until the chicken is cooked through and the sauce is reduced. Remove the chicken and keep it warm.\r\nSTEP 4\r\n\r\nWhile the chicken is cooking, toast the buns in the dry frying pan for 30 seconds. Transfer them to a plate. If you're using an air fryer, put the buns in the air fryer for 1-2 mins until they are warm. Increase the air fryer temperature to 200C. Add the halloumi to the air fryer basket and cook for 10 mins, turning halfway through, until it's golden. Toss the cabbage with the mayo and the remaining lemon juice.\r\n\r\nSTEP 5\r\n\r\nSpoon the hummus (or dip of your choice) into the toasted buns, then top with the rocket, chilli chicken, halloumi, and peppers. Drizzle with a little more chilli sauce, spoon over the cabbage, season with black pepper, and top with the bun lids. Serve with any extra cabbage on the side or a green salad.",
+    "cuisine": "United States",
+    "category": "Chicken",
+    "mealType": "Dinner",
+    "diet": "Non-Vegetarian",
+    "difficulty": "Hard",
+    "ingredients": [
+      {
+        "name": "Chicken Breasts",
+        "quantity": "2"
+      },
+      {
+        "name": "Oil",
+        "quantity": "1 tbsp"
+      },
+      {
+        "name": "Hotsauce",
+        "quantity": "4 tbsp"
+      },
+      {
+        "name": "Lemon Juice",
+        "quantity": "½"
+      },
+      {
+        "name": "Buns",
+        "quantity": "2"
+      },
+      {
+        "name": "Cheese",
+        "quantity": "250g"
+      },
+      {
+        "name": "Cabbage",
+        "quantity": "¼"
+      },
+      {
+        "name": "Mayonnaise",
+        "quantity": "2 tbsp"
+      },
+      {
+        "name": "Sour Cream",
+        "quantity": "4 tbsp"
+      },
+      {
+        "name": "Lettuce",
+        "quantity": "4 leaves"
+      },
+      {
+        "name": "Red Pepper",
+        "quantity": "2"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=k9Ez0bUbXKc",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 15,
+    "calories": 550
+  },
+  {
+    "externalId": "53050",
+    "title": "Ayam Percik",
+    "description": "Ayam Percik - a chicken recipe from Malaysian cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/020z181619788503.jpg",
+    "instructions": "In a blender, add the ingredients for the spice paste and blend until smooth.\r\nOver medium heat, pour the spice paste in a skillet or pan and fry for 10 minutes until fragrant. Add water or oil 1 tablespoon at a time if the paste becomes too dry. Don't burn the paste. Lower the fire slightly if needed.\r\nAdd the cloves, cardamom, tamarind pulp, coconut milk, water, sugar and salt. Turn the heat up and bring the mixture to boil. Turn the heat to medium low and simmer for 10 minutes. Stir occasionally. It will reduce slightly. This is the marinade/sauce, so taste and adjust seasoning if necessary. Don't worry if it's slightly bitter. It will go away when roasting.\r\nWhen the marinade/sauce has cooled, pour everything over the chicken and marinate overnight to two days.\r\nPreheat the oven to 425 F.\r\nRemove the chicken from the marinade. Spoon the marinade onto a greased (or aluminum lined) baking sheet. Lay the chicken on top of the sauce (make sure the chicken covers the sauce and the sauce isn't exposed or it'll burn) and spread the remaining marinade on the chicken. Roast for 35-45 minutes or until internal temp of the thickest part of chicken is at least 175 F.\r\nLet chicken rest for 5 minutes. Brush the chicken with some of the oil. Serve chicken with the sauce over steamed rice (or coconut rice).",
+    "cuisine": "Malaysian",
+    "category": "Chicken",
+    "mealType": "Dinner",
+    "diet": "Non-Vegetarian",
+    "difficulty": "Hard",
+    "ingredients": [
+      {
+        "name": "Chicken Thighs",
+        "quantity": "6"
+      },
+      {
+        "name": "Challots",
+        "quantity": "16"
+      },
+      {
+        "name": "Ginger",
+        "quantity": "1 1/2"
+      },
+      {
+        "name": "Garlic Clove",
+        "quantity": "6"
+      },
+      {
+        "name": "Cayenne Pepper",
+        "quantity": "8"
+      },
+      {
+        "name": "Turmeric",
+        "quantity": "2 tbs"
+      },
+      {
+        "name": "Cumin",
+        "quantity": "1 1/2"
+      },
+      {
+        "name": "Coriander",
+        "quantity": "1 1/2"
+      },
+      {
+        "name": "Fennel",
+        "quantity": "1 1/2"
+      },
+      {
+        "name": "Tamarind Paste",
+        "quantity": "2 tbs"
+      },
+      {
+        "name": "Coconut Milk",
+        "quantity": "1 can"
+      },
+      {
+        "name": "Sugar",
+        "quantity": "1 tsp"
+      },
+      {
+        "name": "Water",
+        "quantity": "1 cup"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=9ytR28QK6I8",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 60,
+    "calories": 550
+  },
+  {
+    "externalId": "53466",
+    "title": "Belgian Waterzooi Chicken",
+    "description": "Belgian Waterzooi Chicken - a chicken recipe from international cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/nmxec11782498644.jpg",
+    "instructions": "Put the chicken, water and one garlic clove in a large saucepan. Place it over medium-high heat until boiling. Then turn the heat low, cover the pan and simmer the chicken for 10 minutes. Remove the chicken leg and breast. Keep the fresh chicken stock for later.\r\n\r\nLet the chicken cool. Then dice the chicken breast up. Pick the meat off the leg. Discard any bones and skin. Slice the leek, celery and carrot finely (julienne). Add the butter, rosemary and bay leaves to a large pan and place it over medium heat until melted.\r\n\r\nThen add the sliced vegetables. Season with pepper and salt.\r\n\r\nStir and cook the vegetables for 3 minutes. Then add the shredded and diced chicken.\r\n\r\nCover the pan and cook the chicken and vegetables for 5 minutes. Then add the cream and ½ cup (120 ml) of the fresh chicken stock.\r\nLook at this delicious waterzooi recipe! Do try out my chunky chicken stew with fresh leeks, celery, carrots and lots of cream... This is Belgian comfort food!\r\n\r\nCover the pan and cook the stew for 20 minutes until the potatoes are tender. Add the egg yolk and 2 tablespoons of the warm cream from the pan to a cup. Whisk and add it back to the pan to thicken the sauce.\r\n\r\nStir all the ingredients and then turn the heat very low. Check the seasoning and add extra pepper or salt to taste. Remove the rosemary and bay leaves. Divide the stew over deep plates and drizzle with the remaining cream sauce. Serve hot.",
+    "cuisine": "International",
+    "category": "Chicken",
+    "mealType": "Dinner",
+    "diet": "Non-Vegetarian",
+    "difficulty": "Hard",
+    "ingredients": [
+      {
+        "name": "Chicken Legs",
+        "quantity": "1"
+      },
+      {
+        "name": "Chicken Breast",
+        "quantity": "1"
+      },
+      {
+        "name": "Water",
+        "quantity": "3 Cups"
+      },
+      {
+        "name": "Carrots",
+        "quantity": "1 small"
+      },
+      {
+        "name": "Leek",
+        "quantity": "2"
+      },
+      {
+        "name": "Celery",
+        "quantity": "1"
+      },
+      {
+        "name": "Potatoes",
+        "quantity": "100g"
+      },
+      {
+        "name": "Garlic",
+        "quantity": "2 cloves"
+      },
+      {
+        "name": "Rosemary",
+        "quantity": "1 Sprig"
+      },
+      {
+        "name": "Cream",
+        "quantity": "1 1/2 cups"
+      },
+      {
+        "name": "Bay Leaf",
+        "quantity": "2"
+      },
+      {
+        "name": "Unsalted Butter",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "name": "Egg Yolks",
+        "quantity": "1"
+      },
+      {
+        "name": "Pepper",
+        "quantity": "Pinch"
+      },
+      {
+        "name": "Salt",
+        "quantity": "Pinch"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 60,
+    "calories": 550
+  },
+  {
+    "externalId": "53453",
+    "title": "Bengali Chicken Curry with Potatoes",
+    "description": "Bengali Chicken Curry with Potatoes - a chicken recipe from international cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/9ya6o71780262651.jpg",
+    "instructions": "Heat the olive oil in a large skillet over medium-high heat. Cook and stir the onions in the hot oil until translucent, about 5 minutes. Add the ginger-garlic paste and continue cooking another 5 minutes. Reduce heat to medium; stir the tomatoes into the mixture and cook until the tomatoes are pulpy, 5 to 10 minutes. Season with the cayenne pepper, curry powder, garam masala, turmeric, and cumin; cook and stir another 5 minutes.\r\n\r\nAdd the chicken and potatoes to the mixture in the skillet; simmer, stirring occasionally, until the potatoes are tender and the chicken is no longer pink in the center, about 20 minutes. Sprinkle the cilantro over the mixture and continue simmering another 10 minutes. Serve hot.",
+    "cuisine": "International",
+    "category": "Chicken",
+    "mealType": "Dinner",
+    "diet": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "ingredients": [
+      {
+        "name": "Olive Oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "name": "Onion",
+        "quantity": "2 diced"
+      },
+      {
+        "name": "Ginger Garlic Paste",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "name": "Tomato",
+        "quantity": "2 diced"
+      },
+      {
+        "name": "Cayenne Pepper",
+        "quantity": "1 tsp"
+      },
+      {
+        "name": "Curry Powder",
+        "quantity": "1 tsp"
+      },
+      {
+        "name": "Garam Masala",
+        "quantity": "1 tsp"
+      },
+      {
+        "name": "Ground Turmeric",
+        "quantity": "1 tsp"
+      },
+      {
+        "name": "Ground Cumin",
+        "quantity": "1 tsp"
+      },
+      {
+        "name": "Chicken Breast",
+        "quantity": "4"
+      },
+      {
+        "name": "Red Potatoes",
+        "quantity": "2 large"
+      },
+      {
+        "name": "Cilantro",
+        "quantity": "1/2 cup"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 45,
+    "calories": 550
+  },
+  {
+    "externalId": "52940",
+    "title": "Brown Stew Chicken",
+    "description": "Brown Stew Chicken - a chicken recipe from Jamaican cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/sypxpx1515365095.jpg",
+    "instructions": "Squeeze lime over chicken and rub well. Drain off excess lime juice.\r\nCombine tomato, scallion, onion, garlic, pepper, thyme, pimento and soy sauce in a large bowl with the chicken pieces. Cover and marinate at least one hour.\r\nHeat oil in a dutch pot or large saucepan. Shake off the seasonings as you remove each piece of chicken from the marinade. Reserve the marinade for sauce.\r\nLightly brown the chicken a few pieces at a time in very hot oil. Place browned chicken pieces on a plate to rest while you brown the remaining pieces.\r\nDrain off excess oil and return the chicken to the pan. Pour the marinade over the chicken and add the carrots. Stir and cook over medium heat for 10 minutes.\r\nMix flour and coconut milk and add to stew, stirring constantly. Turn heat down to minimum and cook another 20 minutes or until tender.",
+    "cuisine": "Jamaican",
+    "category": "Chicken",
+    "mealType": "Dinner",
+    "diet": "Non-Vegetarian",
+    "difficulty": "Hard",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": "1 whole"
+      },
+      {
+        "name": "Tomato",
+        "quantity": "1 chopped"
+      },
+      {
+        "name": "Onions",
+        "quantity": "2 chopped"
+      },
+      {
+        "name": "Garlic Clove",
+        "quantity": "2 chopped"
+      },
+      {
+        "name": "Red Pepper",
+        "quantity": "1 chopped"
+      },
+      {
+        "name": "Carrots",
+        "quantity": "1 chopped"
+      },
+      {
+        "name": "Lime",
+        "quantity": "1"
+      },
+      {
+        "name": "Thyme",
+        "quantity": "2 tsp"
+      },
+      {
+        "name": "Allspice",
+        "quantity": "1 tsp"
+      },
+      {
+        "name": "Soy Sauce",
+        "quantity": "2 tbs"
+      },
+      {
+        "name": "Cornstarch",
+        "quantity": "2 tsp"
+      },
+      {
+        "name": "Coconut Milk",
+        "quantity": "2 cups"
+      },
+      {
+        "name": "Vegetable Oil",
+        "quantity": "1 tbs"
+      }
+    ],
+    "tags": [
+      "Stew"
+    ],
+    "youtubeUrl": "https://www.youtube.com/watch?v=_gFB1fkNhXs",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 60,
+    "calories": 550
+  },
+  {
+    "externalId": "53016",
+    "title": "Chick-Fil-A Sandwich",
+    "description": "Chick-Fil-A Sandwich - a chicken recipe from United States cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/sbx7n71587673021.jpg",
+    "instructions": "Wrap the chicken loosely between plastic wrap and pound gently with the flat side of a meat tenderizer until about 1/2 inch thick all around.\r\nCut into two pieces, as even as possible.\r\nMarinate in the pickle juice for 30 minutes to one hour (add a teaspoon of Tabasco sauce now for a spicy sandwich).\r\nBeat the egg with the milk in a bowl.\r\nCombine the flour, sugar, and spices in another bowl.\r\nDip the chicken pieces each into the egg on both sides, then coat in flour on both sides.\r\nHeat the oil in a skillet (1/2 inch deep) to about 345-350.\r\nFry each cutlet for 2 minutes on each side, or until golden and cooked through.\r\nBlot on paper and serve on toasted buns with pickle slices.",
+    "cuisine": "United States",
+    "category": "Chicken",
+    "mealType": "Lunch",
+    "diet": "Non-Vegetarian",
+    "difficulty": "Hard",
+    "ingredients": [
+      {
+        "name": "Chicken Breast",
+        "quantity": "1"
+      },
+      {
+        "name": "Pickle Juice",
+        "quantity": "1/4 cup"
+      },
+      {
+        "name": "Egg",
+        "quantity": "1"
+      },
+      {
+        "name": "Milk",
+        "quantity": "1/4 cup"
+      },
+      {
+        "name": "Flour",
+        "quantity": "1/2 cup"
+      },
+      {
+        "name": "Icing Sugar",
+        "quantity": "1 tbs"
+      },
+      {
+        "name": "Paprika",
+        "quantity": "1/2 tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1/2 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "quantity": "1/4 tsp"
+      },
+      {
+        "name": "Garlic Powder",
+        "quantity": "1/4 tsp"
+      },
+      {
+        "name": "Celery Salt",
+        "quantity": "1/4 tsp"
+      },
+      {
+        "name": "Cayenne Pepper",
+        "quantity": "1/2 tsp"
+      },
+      {
+        "name": "Olive Oil",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Sesame Seed Burger Buns",
+        "quantity": "1"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=1WDesu7bUDM",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 60,
+    "calories": 550
+  },
+  {
+    "externalId": "53281",
+    "title": "Algerian Kefta (Meatballs)",
+    "description": "Algerian Kefta (Meatballs) - a beef recipe from Algerian cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/8rfd4q1764112993.jpg",
+    "instructions": "Combine ground beef with 1/2 of the minced garlic and 1 tablespoon chopped onion in a large bowl. Mix with your hands until fully incorporated. Shape meat mixture into 1 1/2-inch oblong patties; you should have 12 to 14 meatballs.\r\n\r\nHeat a large skillet over medium-high heat. Brown patties in batches in the hot skillet until crispy on both sides and no longer pink in the center, about 10 minutes. Set meatballs aside in a rimmed serving dish.\r\n\r\nReduce heat to medium and stir remaining chopped onion into drippings in the skillet. Season with salt and pepper. Cook, stirring constantly, until onion has softened and turned translucent, about 5 minutes. Stir in remaining garlic and cook for 30 seconds. Stir in Roma tomatoes, dried parsley, and ras el hanout. Pour in water. Cook until tomatoes are soft, about 5 minutes.\r\n\r\nPour tomato sauce over meatballs to serve.",
+    "cuisine": "Algerian",
+    "category": "Beef",
+    "mealType": "Dinner",
+    "diet": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "ingredients": [
+      {
+        "name": "Ground Beef",
+        "quantity": "1 lb"
+      },
+      {
+        "name": "Garlic",
+        "quantity": "4 Cloves Crushed"
+      },
+      {
+        "name": "Onion",
+        "quantity": "1/2 cup"
+      },
+      {
+        "name": "Salt",
+        "quantity": "To taste"
+      },
+      {
+        "name": "Pepper",
+        "quantity": "To taste"
+      },
+      {
+        "name": "Plum Tomatoes",
+        "quantity": "3"
+      },
+      {
+        "name": "Parsley",
+        "quantity": "1 tsp"
+      },
+      {
+        "name": "Water",
+        "quantity": "1/2 cup"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=IRadJQNLvPs",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 45,
+    "calories": 550
+  },
+  {
+    "externalId": "53334",
+    "title": "Arepa Pabellón",
+    "description": "Arepa Pabellón - a beef recipe from Venezuela cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/13fg4j1764441982.jpg",
+    "instructions": "Prepare the meat in a skillet and add salt and pepper to taste, heat the beans over medium heat in a pan, fry or grill the ripe plantains as indicated on its package and cut the tomato into small cubes. Reserve these ingredients until filling. \r\nPreheat the grill or pan and grill the arepa, putting it once on each side until they are golden brown. \r\nWith the help of a knife, open it by the edge through the middle, creating a space to fill it with the ripe plantain, the beans, meat and chopped tomato. \r\nServe with a little pico de gallo or guacamole dip sauce.",
+    "cuisine": "Venezuela",
+    "category": "Beef",
+    "mealType": "Dinner",
+    "diet": "Vegetarian",
+    "difficulty": "Medium",
+    "ingredients": [
+      {
+        "name": "Corn Arepa Filled With Mozarella Cheese",
+        "quantity": "2"
+      },
+      {
+        "name": "Fried Ripe Bananas",
+        "quantity": "1"
+      },
+      {
+        "name": "Black Beans",
+        "quantity": "1 Can"
+      },
+      {
+        "name": "Pico De Gallo Sauce",
+        "quantity": "1"
+      },
+      {
+        "name": "Shredded Meat",
+        "quantity": "2kg"
+      },
+      {
+        "name": "Tomato",
+        "quantity": "1 chopped"
+      },
+      {
+        "name": "Salt",
+        "quantity": "Pinch"
+      },
+      {
+        "name": "Pepper",
+        "quantity": "Pinch"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "https://www.youtube.com/shorts/Tb1PPOyqthA",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 45,
+    "calories": 550
+  },
+  {
+    "externalId": "53329",
+    "title": "Arepa pelua",
+    "description": "Arepa pelua - a beef recipe from Venezuela cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/jgl9qq1764437635.jpg",
+    "instructions": "Cook the meat: Place the flank steak in a pot with broth or water and salt. Cook over low heat for about 2 hours, until tender and easy to shred.\r\nShred the meat: Once cooked, drain and shred the meat using two forks.\r\nPrepare the vegetables: Sauté chopped onion, bell pepper, and garlic in a little oil. Add cumin, oregano, paprika, and salt. Stir in the meat and cook for a few minutes until the flavors are well combined.\r\nMake the dough: In a bowl, mix the cornmeal with warm water and salt until a soft dough forms. Let it rest for 5 minutes.\r\nForm the arepas: Divide the dough into 6 portions, shape into balls, and flatten into thick discs.\r\nCook: Cook the arepas on a griddle or skillet over medium heat for 2–3 minutes on each side until golden. You can then bake them for a few minutes if you prefer them crispier.\r\nFill: Slice the arepas open on one side, fill with the hot shredded beef, and top with grated cheese.",
+    "cuisine": "Venezuela",
+    "category": "Beef",
+    "mealType": "Dinner",
+    "diet": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "ingredients": [
+      {
+        "name": "Beef",
+        "quantity": "500g"
+      },
+      {
+        "name": "Onion",
+        "quantity": "1"
+      },
+      {
+        "name": "Red Pepper",
+        "quantity": "1"
+      },
+      {
+        "name": "Garlic",
+        "quantity": "2 cloves"
+      },
+      {
+        "name": "Cumin",
+        "quantity": "1 tsp"
+      },
+      {
+        "name": "Oregano",
+        "quantity": "1 tsp"
+      },
+      {
+        "name": "Paprika",
+        "quantity": "1 tsp"
+      },
+      {
+        "name": "Beef Stock",
+        "quantity": "1 L"
+      },
+      {
+        "name": "Water",
+        "quantity": "2 1/2 cups"
+      },
+      {
+        "name": "Salt",
+        "quantity": "Pinch"
+      },
+      {
+        "name": "Cheese",
+        "quantity": "200g"
+      },
+      {
+        "name": "Extra Virgin Olive Oil",
+        "quantity": "Pinch"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=bSWoRyWI6Fo",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 45,
+    "calories": 550
+  },
+  {
+    "externalId": "53133",
+    "title": "Asado",
+    "description": "Asado - a beef recipe from Argentina cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/kgfh3q1763075438.jpg",
+    "instructions": "Prepare the Fire: Start a wood fire in your grill and let it burn down to coals.\r\nSeason the Meat: Generously salt the beef cuts.\r\nGrill the Meat: Place the beef on the grill, starting with the thickest cuts farthest from the coals. Add chorizo and morcilla after the beef has been cooking for a while.\r\nCook to Perfection: Cook the meat, turning occasionally, until it reaches your desired doneness. Typically, ribs may take up to 2 hours; thinner cuts will cook faster.\r\nRest and Serve: Let the meat rest for about 10 minutes before slicing. Serve with chimichurri sauce and grilled vegetables.\r\nPro Tips:\r\n\r\nUse a mix of wood and charcoal for a consistent heat source. Wood adds flavor, while charcoal maintains temperature.\r\nSeason the meat just before grilling to ensure it retains its moisture and flavor.\r\nServing Suggestions:\r\n\r\nServe with a side of chimichurri sauce, a fresh tomato salad, and crusty bread. Pair with a robust Malbec wine to complement the rich flavors of the meat.",
+    "cuisine": "Argentina",
+    "category": "Beef",
+    "mealType": "Dinner",
+    "diet": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "ingredients": [
+      {
+        "name": "Mixed Beef Cuts",
+        "quantity": "2kg"
+      },
+      {
+        "name": "Chorizo",
+        "quantity": "4"
+      },
+      {
+        "name": "Morcilla",
+        "quantity": "2"
+      },
+      {
+        "name": "Salt",
+        "quantity": "To taste"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=q5f6Z6i1hQ8",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 45,
+    "calories": 550
+  },
+  {
+    "externalId": "53158",
+    "title": "Air fryer patatas bravas",
+    "description": "Air fryer patatas bravas - a vegetarian recipe from Spanish cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/3m8yae1763257951.jpg",
+    "instructions": "step 1\r\nSoak the potatoes in just-boiled water for 30 mins, then drain and leave to air-dry for 5 mins. Heat the air fryer to 200C. Tip the potatoes into a bowl and drizzle over 1 tbsp of the oil and add 1/2 tsp each of salt and freshly ground black pepper. Mix to coat the potatoes all over, then tip into the air fryer basket and cook for 20-30 mins until crisp and golden.\r\n\r\nstep 2\r\nMeanwhile, heat the remaining oil in a small pan over a medium-low heat and fry the onion for 8-10 mins until softened but not golden. Stir in the garlic and cook for a minute before adding the paprika and cooking for 30 seconds more. Stir in the tomato purée, cook for 1 min, then tip in the chopped tomatoes. Cook for 5-10 mins over a medium heat until thickened slightly.\r\n\r\nstep 3\r\nOnce the potatoes are cooked, tip out onto a platter and pour over the tomato sauce. Sprinkle with the basil leaves, then serve.",
+    "cuisine": "Spanish",
+    "category": "Vegetarian",
+    "mealType": "Dinner",
+    "diet": "Vegetarian",
+    "difficulty": "Medium",
+    "ingredients": [
+      {
+        "name": "Potatoes",
+        "quantity": "900g"
+      },
+      {
+        "name": "Olive Oil",
+        "quantity": "3  tablespoons"
+      },
+      {
+        "name": "Onion",
+        "quantity": "1 chopped"
+      },
+      {
+        "name": "Garlic",
+        "quantity": "1 clove peeled crushed"
+      },
+      {
+        "name": "Paprika",
+        "quantity": "1 tblsp"
+      },
+      {
+        "name": "Tomato Puree",
+        "quantity": "1 tblsp"
+      },
+      {
+        "name": "Tinned Tomatos",
+        "quantity": "225g"
+      },
+      {
+        "name": "Basil Leaves",
+        "quantity": "To serve"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=kzLaw6PG2UY",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 45,
+    "calories": 450
+  },
+  {
+    "externalId": "53288",
+    "title": "Algerian Flafla (Bell Pepper Salad)",
+    "description": "Algerian Flafla (Bell Pepper Salad) - a vegetarian recipe from Algerian cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/tbj1bs1764118062.jpg",
+    "instructions": "Preheat an oven to 450 degrees F (230 degrees C). Place the whole peppers on aluminum foil. Bake until the skin is spotted black and the peppers are soft, 30 to 45 minutes, turning the peppers once if necessary.\r\n\r\nRemove peppers from the oven and set aside to cool for 10 minutes. Peel off the skin and remove the stem and seeds. Chop the roasted peppers into half-inch pieces.\r\n\r\nHeat the olive oil in a skillet over medium heat. Stir in the onion and cook, stirring frequently, until the onion has softened and turned translucent, about 5 minutes. Add the garlic, salt, and pepper; stir in the chopped peppers and tomato. Cook over medium heat, stirring occasionally, until the tomato is soft and the mixture is well incorporated, about 5 minutes.",
+    "cuisine": "Algerian",
+    "category": "Vegetarian",
+    "mealType": "Lunch",
+    "diet": "Vegetarian",
+    "difficulty": "Medium",
+    "ingredients": [
+      {
+        "name": "Green Pepper",
+        "quantity": "3"
+      },
+      {
+        "name": "Olive Oil",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "name": "Red Onions",
+        "quantity": "1 tablespoon chopped"
+      },
+      {
+        "name": "Garlic",
+        "quantity": "1 clove peeled crushed"
+      },
+      {
+        "name": "Salt",
+        "quantity": "To taste"
+      },
+      {
+        "name": "Pepper",
+        "quantity": "To taste"
+      },
+      {
+        "name": "Plum Tomatoes",
+        "quantity": "1 Diced"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=JXrS1doDnNg",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 45,
+    "calories": 450
+  },
+  {
+    "externalId": "53278",
+    "title": "Aubergine & hummus grills",
+    "description": "Aubergine & hummus grills - a vegetarian recipe from Turkish cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/zub3s91764110535.jpg",
+    "instructions": "step 1\r\nLay the aubergine out in one layer on a large baking sheet. Brush sparingly with vegetable oil, then season generously. Grill for 15 mins, turning twice and brushing with oil until the slices are softened and cooked through. Meanwhile, whizz the bread into crumbs. Add 2 tsp oil and whizz briefly again, to coat.\r\n\r\nstep 2\r\nSpread a couple of tsps of hummus on top of each slice of aubergine. Tip the breadcrumbs onto a large plate, then press the hummus side of the aubergines into the crumbs to coat. Grill again, crumb-side up, for about 3 mins until golden.\r\n\r\nstep 3\r\nToss the walnuts, parsley and cherry tomatoes in a bowl, season, then add the lemon juice and olive oil and toss again. Serve the grills with the salad, a dollop more hummus and some pitta bread.",
+    "cuisine": "Turkish",
+    "category": "Vegetarian",
+    "mealType": "Dinner",
+    "diet": "Vegetarian",
+    "difficulty": "Medium",
+    "ingredients": [
+      {
+        "name": "Aubergine",
+        "quantity": "2"
+      },
+      {
+        "name": "Vegetable Oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "name": "Bread",
+        "quantity": "3 sliced thinly"
+      },
+      {
+        "name": "Hummus",
+        "quantity": "300g"
+      },
+      {
+        "name": "Walnuts",
+        "quantity": "100g"
+      },
+      {
+        "name": "Parsley",
+        "quantity": "40g"
+      },
+      {
+        "name": "Cherry Tomatoes",
+        "quantity": "200g"
+      },
+      {
+        "name": "Lemon",
+        "quantity": "Juice of 1/2"
+      },
+      {
+        "name": "Extra Virgin Olive Oil",
+        "quantity": "Splash"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=P5LD03XptB8",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 45,
+    "calories": 450
+  },
+  {
+    "externalId": "53267",
+    "title": "Aubergine couscous salad",
+    "description": "Aubergine couscous salad - a vegetarian recipe from Turkish cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/02s6gc1763799560.jpg",
+    "instructions": "step 1\r\nHeat grill to high. Put the aubergine on a baking sheet, brush with oil and season. Grill for about 15 mins, turning and brushing with more oil halfway, until browned and softened.\r\n\r\nstep 2\r\nMeanwhile, tip the couscous into a large bowl, pour over the stock, then cover and leave for 10 mins. Mix the tomatoes, mint, goat’s cheese and remaining oil together. Fluff the couscous up with a fork, then stir in the aubergines, tomato mixture and lemon juice.",
+    "cuisine": "Turkish",
+    "category": "Vegetarian",
+    "mealType": "Lunch",
+    "diet": "Vegetarian",
+    "difficulty": "Medium",
+    "ingredients": [
+      {
+        "name": "Aubergine",
+        "quantity": "1 sliced"
+      },
+      {
+        "name": "Olive Oil",
+        "quantity": "3  tablespoons"
+      },
+      {
+        "name": "Couscous",
+        "quantity": "140g"
+      },
+      {
+        "name": "Vegetable Stock",
+        "quantity": "225g"
+      },
+      {
+        "name": "Cherry Tomatoes",
+        "quantity": "200g"
+      },
+      {
+        "name": "Mint",
+        "quantity": "Handful"
+      },
+      {
+        "name": "Goats Cheese",
+        "quantity": "100g"
+      },
+      {
+        "name": "Lemon",
+        "quantity": "Juice of 1/2"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "https://www.youtube.com/shorts/8ws2Ohy__CQ",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 45,
+    "calories": 450
+  },
+  {
+    "externalId": "53107",
+    "title": "Avocado dip with new potatoes",
+    "description": "Avocado dip with new potatoes - a vegetarian recipe from Australian cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/flrajf1762341295.jpg",
+    "instructions": "step 1\r\nWhizz half the avocado flesh with the yogurt, lime and lemon juice and seasoning. Dice the remaining avocado, then gently stir into the whizzed mix with most of the lime zest. Cover, then chill until ready to serve.\r\n\r\nstep 2\r\nBoil potatoes for 6 mins, then drain well and toss with olive oil, chilli powder and cumin seeds. Now set aside until half an hour before your guests arrive.\r\n\r\nstep 3\r\nHeat oven to 200C/180C fan/gas 6, then roast potatoes for about 30 mins, shaking the tray halfway, until golden and tender. Transfer the dip to one or two bowls, scatter with the remaining lime zest and serve with the hot potatoes, and tortilla chips for dipping.",
+    "cuisine": "Australian",
+    "category": "Vegetarian",
+    "mealType": "Dinner",
+    "diet": "Vegetarian",
+    "difficulty": "Medium",
+    "ingredients": [
+      {
+        "name": "Avocado",
+        "quantity": "3 Large"
+      },
+      {
+        "name": "Natural Yoghurt",
+        "quantity": "200g"
+      },
+      {
+        "name": "Lime",
+        "quantity": "Zest and juice of 1"
+      },
+      {
+        "name": "Lemon",
+        "quantity": "Juice of 1/2"
+      },
+      {
+        "name": "Baby New Potatoes",
+        "quantity": "1.25kg"
+      },
+      {
+        "name": "Olive Oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "name": "Hot Chilli Powder",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "name": "Cumin Seeds",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "name": "Tortillas",
+        "quantity": "200g"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 45,
+    "calories": 450
+  },
+  {
+    "externalId": "52807",
+    "title": "Baingan Bharta",
+    "description": "Baingan Bharta - a vegetarian recipe from India cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/urtpqw1487341253.jpg",
+    "instructions": "Rinse the baingan (eggplant or aubergine) in water. Pat dry with a kitchen napkin. Apply some oil all over and\r\nkeep it for roasting on an open flame. You can also grill the baingan or roast in the oven. But then you won't get\r\nthe smoky flavor of the baingan. Keep the eggplant turning after a 2 to 3 minutes on the flame, so that its evenly\r\ncooked. You could also embed some garlic cloves in the baingan and then roast it.\r\n2. Roast the aubergine till its completely cooked and tender. With a knife check the doneness. The knife should slid\r\neasily in aubergines without any resistance. Remove the baingan and immerse in a bowl of water till it cools\r\ndown.\r\n3. You can also do the dhungar technique of infusing charcoal smoky flavor in the baingan. This is an optional step.\r\nUse natural charcoal for this method. Heat a small piece of charcoal on flame till it becomes smoking hot and red.\r\n4. Make small cuts on the baingan with a knife. Place the red hot charcoal in the same plate where the roasted\r\naubergine is kept. Add a few drops of oil on the charcoal. The charcoal would begin to smoke.\r\n5. As soon as smoke begins to release from the charcoal, cover the entire plate tightly with a large bowl. Allow the\r\ncharcoal smoke to get infused for 1 to 2 minutes. The more you do, the more smoky the baingan bharta will\r\nbecome. I just keep for a minute. Alternatively, you can also do this dhungar method once the baingan bharta is\r\ncooked, just like the way we do for Dal Tadka.\r\n6. Peel the skin from the roasted and smoked eggplant.\r\n7. Chop the cooked eggplant finely or you can even mash it.\r\n8. In a kadai or pan, heat oil. Then add finely chopped onions and garlic.\r\n9. Saute the onions till translucent. Don't brown them.\r\n10. Add chopped green chilies and saute for a minute.\r\n11. Add the chopped tomatoes and mix it well.\r\n12. Bhuno (saute) the tomatoes till the oil starts separating from the mixture.\r\n13. Now add the red chili powder. Stir and mix well.\r\n14. Add the chopped cooked baingan.\r\n15. Stir and mix the chopped baingan very well with the onion­tomato masala mixture.\r\n16. Season with salt. Stir and saute for some more 4 to 5 minutes more.\r\n17. Finally stir in the coriander leaves with the baingan bharta or garnish it with them. Serve Baingan Bharta with\r\nphulkas, rotis or chapatis. It goes well even with bread, toasted or grilled bread and plain rice or jeera rice.",
+    "cuisine": "India",
+    "category": "Vegetarian",
+    "mealType": "Dinner",
+    "diet": "Vegetarian",
+    "difficulty": "Hard",
+    "ingredients": [
+      {
+        "name": "Aubergine",
+        "quantity": "1 large"
+      },
+      {
+        "name": "Onion",
+        "quantity": "½ cup"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Garlic",
+        "quantity": "6 cloves"
+      },
+      {
+        "name": "Green Chilli",
+        "quantity": "1"
+      },
+      {
+        "name": "Red Chilli Powder",
+        "quantity": "¼ teaspoon"
+      },
+      {
+        "name": "Oil",
+        "quantity": "1.5 tablespoon"
+      },
+      {
+        "name": "Coriander Leaves",
+        "quantity": "1 tablespoon chopped"
+      },
+      {
+        "name": "salt",
+        "quantity": "as required"
+      }
+    ],
+    "tags": [
+      "Spicy",
+      "Bun",
+      "Calorific"
+    ],
+    "youtubeUrl": "https://www.youtube.com/watch?v=-84Zz2EP4h4",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 60,
+    "calories": 450
+  },
+  {
+    "externalId": "53307",
+    "title": "Beetroot & red cabbage sauerkraut",
+    "description": "Beetroot & red cabbage sauerkraut - a vegetarian recipe from Polish cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/ra2k8a1764365055.jpg",
+    "instructions": "step 1\r\nTip all the ingredients into a large bowl, add 1-1½ tsp freshly ground black pepper, then scrunch it all together with your hands for 5 mins. You might want to wear gloves to avoid staining your skin with the beetroot juices.\r\n\r\nstep 2\r\nPress the veg down in the bowl with your hands, then cover the surface and up the side of the bowl with a large sheet of compostable cling film or something reusable like a beeswax wrap. Now place another similar-sized bowl on top. Press down hard and add anything heavy (packs of rice or cans work well) to weigh it down so the juices rise to cover the surface. Cover again.\r\n\r\nstep 3\r\nLeave to ferment at room temperature for at least five days, but for maximum flavour, leave for one-five weeks (until the bubbling subsides).\r\n\r\nstep 4\r\nCheck the sauerkraut. After a few days, you will see bubbles that have built up as it ferments. Give it a stir, then cover and weigh it down again as before. The cabbage will become increasingly sour the longer it’s fermented, so taste it now and again. When you like the flavour, transfer it to sterilised jars and keep chilled. Will keep chilled for up to six months.",
+    "cuisine": "Polish",
+    "category": "Vegetarian",
+    "mealType": "Dinner",
+    "diet": "Vegetarian",
+    "difficulty": "Medium",
+    "ingredients": [
+      {
+        "name": "Beetroot",
+        "quantity": "320g"
+      },
+      {
+        "name": "Red Cabbage",
+        "quantity": "450g"
+      },
+      {
+        "name": "Onion",
+        "quantity": "1 small"
+      },
+      {
+        "name": "Caraway Seed",
+        "quantity": "2 tsp"
+      },
+      {
+        "name": "Sea Salt",
+        "quantity": "1 tsp"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=ly1UeAjydEg",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 45,
+    "calories": 450
+  },
+  {
+    "externalId": "53313",
+    "title": "Beetroot latkes",
+    "description": "Beetroot latkes - a vegetarian recipe from Ukrainian cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/qwicc91764368097.jpg",
+    "instructions": "step 1\r\nHeat the oven to 180C/160C fan/gas 4. Make the latkes by combining all of the ingredients.\r\n\r\nstep 2\r\nHeat the oil in a large non-stick pan. Spoon in the mixture to make six round latkes. Fry for 4-5 mins on each side, then transfer to a baking sheet and bake for 10 mins.\r\n\r\nstep 3\r\nCombine the yogurt and mint in a small bowl. Toss the salad leaves and tomatoes together, then serve the latkes with the mint yogurt and salad.",
+    "cuisine": "Ukrainian",
+    "category": "Vegetarian",
+    "mealType": "Dinner",
+    "diet": "Vegetarian",
+    "difficulty": "Medium",
+    "ingredients": [
+      {
+        "name": "Rapeseed Oil",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "name": "Greek Yogurt",
+        "quantity": "4 tablespoons"
+      },
+      {
+        "name": "Mint",
+        "quantity": "1/2 bag"
+      },
+      {
+        "name": "Rocket",
+        "quantity": "150g"
+      },
+      {
+        "name": "Cherry Tomatoes",
+        "quantity": "130g"
+      },
+      {
+        "name": "Beetroot",
+        "quantity": "400g"
+      },
+      {
+        "name": "Egg",
+        "quantity": "1 beaten"
+      },
+      {
+        "name": "Plain Flour",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "name": "Garlic",
+        "quantity": "1 clove finely chopped"
+      },
+      {
+        "name": "Caraway Seed",
+        "quantity": "1 tsp"
+      },
+      {
+        "name": "Ground Cumin",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "name": "Lemon",
+        "quantity": "Zest of 1"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=pRLuLYQnPiM",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 45,
+    "calories": 450
+  },
+  {
+    "externalId": "53483",
+    "title": "Acaraje black-eyed pea fritters with shrimp filling",
+    "description": "Acaraje black-eyed pea fritters with shrimp filling - a seafood recipe from international cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/dxs5t71782678369.jpg",
+    "instructions": "step 1\r\nMake the filling by placing the onion, ginger, garlic, chilli, and some salt into food processor. Purée until smooth. Heat the oil in a frying pan and pour the purée into it. Fry for 5 mins or until cooked through. Add the prawns, tomatoes and chopped coriander. Squeeze in the lime and add salt to taste. Cook for 3 mins, or until the prawns have cooked through. Remove from the heat.\r\n\r\nstep 2\r\nDrain and rinse the black-eyed peas. Pour into a food processor with the garlic and chili. Purée until smooth. Scrape into a bowl and add the onion, flour, salt, chilli powder and baking powder. Mix and roll into 16 balls.\r\n\r\nstep 3\r\nHeat the oven to 190C/170C fan/gas 5. Heat 8cm of the palm or vegetable oil in a wok or small heavy pan. When a small piece of bread sizzles, drop 4-5 balls into the oil. Fry until golden and crisp, about 4-5 mins. Drain on kitchen paper and repeat until they are all finished. You can keep them warm in the oven while you finish. Slice the fritters open down the centre and spoon the prawn filling in. Serve with hot sauce.",
+    "cuisine": "International",
+    "category": "Seafood",
+    "mealType": "Dinner",
+    "diet": "Non-Vegetarian",
+    "difficulty": "Hard",
+    "ingredients": [
+      {
+        "name": "Black Eyed Peas",
+        "quantity": "800g"
+      },
+      {
+        "name": "Garlic",
+        "quantity": "1 clove"
+      },
+      {
+        "name": "Green Chilli",
+        "quantity": "1"
+      },
+      {
+        "name": "Red Onions",
+        "quantity": "1 small finely diced"
+      },
+      {
+        "name": "Plain Flour",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1 tsp"
+      },
+      {
+        "name": "Chilli Powder",
+        "quantity": "1 tsp"
+      },
+      {
+        "name": "Baking Powder",
+        "quantity": "1 tsp"
+      },
+      {
+        "name": "Vegetable Oil",
+        "quantity": "For frying"
+      },
+      {
+        "name": "Red Onions",
+        "quantity": "1 sliced"
+      },
+      {
+        "name": "Ginger",
+        "quantity": "1 tablespoon chopped"
+      },
+      {
+        "name": "Garlic",
+        "quantity": "2 cloves"
+      },
+      {
+        "name": "Red Chilli",
+        "quantity": "1 chopped"
+      },
+      {
+        "name": "Raw tiger prawns",
+        "quantity": "150g"
+      },
+      {
+        "name": "Vegetable Oil",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "name": "Plum Tomatoes",
+        "quantity": "2"
+      },
+      {
+        "name": "Coriander",
+        "quantity": "1 tablespoon chopped"
+      },
+      {
+        "name": "Lime",
+        "quantity": "Juice of 1"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 60,
+    "calories": 450
+  },
+  {
+    "externalId": "53495",
+    "title": "Amok Trey – Cambodian Fish Curry",
+    "description": "Amok Trey – Cambodian Fish Curry - a seafood recipe from international cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/diuub11782687570.jpg",
+    "instructions": "1. In a medium bowl, combine the coconut milk, red curry paste, fish sauce, palm sugar, and broth, whisking until smooth—this ensures no lumps in the sauce.\r\n2. Heat the vegetable oil in a large skillet over medium heat (about 350°F) for 30 seconds until shimmering.\r\n3. Pour the coconut milk mixture into the skillet and bring it to a gentle simmer, stirring occasionally, which should take about 3-4 minutes.\r\n4. Add the fish cubes and kaffir lime leaves to the skillet, submerging them fully in the sauce.\r\n5. Reduce the heat to low, cover the skillet, and let it cook for 10 minutes until the fish is opaque and flakes easily with a fork—avoid overcooking to keep it tender.\r\n6. Stir in the beaten egg slowly, cooking for 2 more minutes until the sauce thickens slightly, which adds a rich, custard-like texture.\r\n7. While the curry simmers, prepare the banana leaves by briefly passing them over a gas flame for 10 seconds to make them pliable, or use parchment paper as a handy alternative.\r\n8. Spoon the curry into the center of each banana leaf square, folding the edges to form a tight packet to trap steam.\r\n9. Place the packets in a steamer basket over boiling water and steam for 10 minutes until heated through and fragrant.\r\n10. Carefully unwrap the packets and garnish with fresh cilantro and lime wedges before serving",
+    "cuisine": "International",
+    "category": "Seafood",
+    "mealType": "Dinner",
+    "diet": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "ingredients": [
+      {
+        "name": "Fish fillet",
+        "quantity": "1 lb"
+      },
+      {
+        "name": "Coconut Milk",
+        "quantity": "1 Can"
+      },
+      {
+        "name": "Red Curry Paste",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "name": "Fish Sauce",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "name": "Brown Sugar",
+        "quantity": "1 tsp"
+      },
+      {
+        "name": "Chicken Stock",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Egg",
+        "quantity": "1"
+      },
+      {
+        "name": "Kaffir Lime Leaves",
+        "quantity": "2"
+      },
+      {
+        "name": "Vegetable Oil",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "name": "Banana Leaves",
+        "quantity": "Handful"
+      },
+      {
+        "name": "Cilantro",
+        "quantity": "Garnish"
+      },
+      {
+        "name": "Lime",
+        "quantity": "Garnish"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 45,
+    "calories": 450
+  },
+  {
+    "externalId": "53147",
+    "title": "Arroz con gambas y calamar",
+    "description": "Arroz con gambas y calamar - a seafood recipe from Spanish cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/jc6oub1763196663.jpg",
+    "instructions": "step 1\r\nPeel and devein most of the prawns (a fishmonger should be able to do this for you), keeping a few whole for decoration, if you like. Heat the olive oil in a large frying pan or shallow flameproof casserole over a medium-low heat and fry the onion for 5 mins until softened. Add the bay leaf, saffron, rice and tomato purée, and cook for 1-2 mins more, stirring.\r\n\r\nstep 2\r\nPour in the wine and bubble for 1-2 mins, then pour in the seafood stock and 150ml water. Cook for 5 mins, then add the squid, season well and stir to combine. Bring to the boil, then cover and reduce the heat to a gentle simmer. Cook for 12 mins more, adding a little more water if the mixture starts to look dry.\r\n\r\nstep 3\r\nUncover the pan and stir through the peeled prawns, then arrange any whole prawns on top of the rice mixture. Cover again and simmer for a further 5-6 mins until the prawns are pink and cooked through. Leave to stand for a couple of minutes before serving from the pan.",
+    "cuisine": "Spanish",
+    "category": "Seafood",
+    "mealType": "Dinner",
+    "diet": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "ingredients": [
+      {
+        "name": "Raw King Prawns",
+        "quantity": "24"
+      },
+      {
+        "name": "Olive Oil",
+        "quantity": "2 tbsp"
+      },
+      {
+        "name": "Onion",
+        "quantity": "1 small"
+      },
+      {
+        "name": "Bay Leaf",
+        "quantity": "1"
+      },
+      {
+        "name": "Saffron",
+        "quantity": "1 pinch"
+      },
+      {
+        "name": "Paella Rice",
+        "quantity": "450g"
+      },
+      {
+        "name": "Tomato Puree",
+        "quantity": "2 teaspoons"
+      },
+      {
+        "name": "White Wine",
+        "quantity": "200ml"
+      },
+      {
+        "name": "Seafood stock",
+        "quantity": "650ml"
+      },
+      {
+        "name": "Squid",
+        "quantity": "3 Medium"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=nFFp0ebOlOo",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 45,
+    "calories": 450
+  },
+  {
+    "externalId": "53481",
+    "title": "Bahia-style Moqueca prawn stew",
+    "description": "Bahia-style Moqueca prawn stew - a seafood recipe from international cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/e2kcut1782591669.jpg",
+    "instructions": "step 1\r\nPlace the prawns in a bowl with 2 tbsp of the lime juice, 1 tsp of salt and 1 tbsp of the chopped garlic. Chill for 1 hr.\r\n\r\nstep 2\r\nHeat the coconut oil in a large saucepan. Add the spring onion and onion and fry for 5 mins, then add the red pepper, chilli flakes, paprika and remaining garlic.\r\n\r\nstep 3\r\nPour in the tomatoes, coconut milk and a little salt. Bring to a simmer and let reduce for 10 mins. Add the prawns, all the marinade and remaining lime juice. Gently simmer until the prawns turn white, about 3 mins. Serve with the fresh coriander and rice.",
+    "cuisine": "International",
+    "category": "Seafood",
+    "mealType": "Dinner",
+    "diet": "Non-Vegetarian",
+    "difficulty": "Hard",
+    "ingredients": [
+      {
+        "name": "Raw King Prawns",
+        "quantity": "450g"
+      },
+      {
+        "name": "Lime juice",
+        "quantity": "75 ml"
+      },
+      {
+        "name": "Garlic",
+        "quantity": "3 cloves Chopped"
+      },
+      {
+        "name": "Coconut Oil",
+        "quantity": "3  tablespoons"
+      },
+      {
+        "name": "Spring Onions",
+        "quantity": "4 Chopped"
+      },
+      {
+        "name": "Onion",
+        "quantity": "1"
+      },
+      {
+        "name": "Red Pepper",
+        "quantity": "1 chopped"
+      },
+      {
+        "name": "Chilli Flakes",
+        "quantity": "1 tsp"
+      },
+      {
+        "name": "Paprika",
+        "quantity": "2 tsp"
+      },
+      {
+        "name": "Plum Tomatoes",
+        "quantity": "3 chopped"
+      },
+      {
+        "name": "Coconut Milk",
+        "quantity": "400ml"
+      },
+      {
+        "name": "Coriander",
+        "quantity": "2 tbs chopped"
+      },
+      {
+        "name": "Rice",
+        "quantity": "To serve"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 60,
+    "calories": 450
+  },
+  {
+    "externalId": "52959",
+    "title": "Baked salmon with fennel & tomatoes",
+    "description": "Baked salmon with fennel & tomatoes - a seafood recipe from British cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/1548772327.jpg",
+    "instructions": "Heat oven to 180C/fan 160C/gas 4. Trim the fronds from the fennel and set aside. Cut the fennel bulbs in half, then cut each half into 3 wedges. Cook in boiling salted water for 10 mins, then drain well. Chop the fennel fronds roughly, then mix with the parsley and lemon zest.\r\n\r\nSpread the drained fennel over a shallow ovenproof dish, then add the tomatoes. Drizzle with olive oil, then bake for 10 mins. Nestle the salmon among the veg, sprinkle with lemon juice, then bake 15 mins more until the fish is just cooked. Scatter over the parsley and serve.",
+    "cuisine": "British",
+    "category": "Seafood",
+    "mealType": "Dinner",
+    "diet": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "ingredients": [
+      {
+        "name": "Fennel",
+        "quantity": "2 medium"
+      },
+      {
+        "name": "Parsley",
+        "quantity": "2 tbs chopped"
+      },
+      {
+        "name": "Lemon",
+        "quantity": "Juice of 1"
+      },
+      {
+        "name": "Cherry Tomatoes",
+        "quantity": "175g"
+      },
+      {
+        "name": "Olive Oil",
+        "quantity": "1 tbs"
+      },
+      {
+        "name": "Salmon",
+        "quantity": "350g"
+      },
+      {
+        "name": "Black Olives",
+        "quantity": "to serve"
+      }
+    ],
+    "tags": [
+      "Paleo",
+      "Keto",
+      "HighFat",
+      "Baking",
+      "LowCarbs"
+    ],
+    "youtubeUrl": "https://www.youtube.com/watch?v=xvPR2Tfw5k0",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 45,
+    "calories": 450
+  },
+  {
+    "externalId": "52839",
+    "title": "Chilli prawn linguine",
+    "description": "Chilli prawn linguine - a pasta recipe from Italian cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/usywpp1511189717.jpg",
+    "instructions": "Mix the dressing ingredients in a small bowl and season with salt and pepper. Set aside.\r\n\r\nCook the pasta according to the packet instructions. Add the sugar snap peas for the last minute or so of cooking time.\r\n\r\nMeanwhile, heat the oil in a wok or large frying pan, toss in the garlic and chilli and cook over a fairly gentle heat for about 30 seconds without letting the garlic brown. Tip in the prawns and cook over a high heat, stirring frequently, for about 3 minutes until they turn pink.\r\n\r\nAdd the tomatoes and cook, stirring occasionally, for 3 minutes until they just start to soften. Drain the pasta and sugar snaps well, then toss into the prawn mixture. Tear in the basil leaves, stir, and season with salt and pepper.\r\n\r\nServe with salad leaves drizzled with the lime dressing, and warm crusty bread.",
+    "cuisine": "Italian",
+    "category": "Pasta",
+    "mealType": "Dinner",
+    "diet": "Non-Vegetarian",
+    "difficulty": "Hard",
+    "ingredients": [
+      {
+        "name": "Linguine Pasta",
+        "quantity": "280g"
+      },
+      {
+        "name": "Sugar Snap Peas",
+        "quantity": "200g"
+      },
+      {
+        "name": "Olive Oil",
+        "quantity": "2 tblsp"
+      },
+      {
+        "name": "Garlic Clove",
+        "quantity": "2 cloves chopped"
+      },
+      {
+        "name": "Red Chilli",
+        "quantity": "1 large"
+      },
+      {
+        "name": "King Prawns",
+        "quantity": "24 Skinned"
+      },
+      {
+        "name": "Cherry Tomatoes",
+        "quantity": "12"
+      },
+      {
+        "name": "Basil Leaves",
+        "quantity": "Handful"
+      },
+      {
+        "name": "Lettuce",
+        "quantity": "Leaves"
+      },
+      {
+        "name": "Bread",
+        "quantity": "to serve"
+      },
+      {
+        "name": "Fromage Frais",
+        "quantity": "2 tbsp"
+      },
+      {
+        "name": "Lime",
+        "quantity": "Grated Zest of 2"
+      },
+      {
+        "name": "Caster Sugar",
+        "quantity": "2 tsp"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=SC17Mc70Db0",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 60,
+    "calories": 550
+  },
+  {
+    "externalId": "53064",
+    "title": "Fettuccine Alfredo",
+    "description": "Fettuccine Alfredo - a pasta recipe from Italian cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/0jv5gx1661040802.jpg",
+    "instructions": "Cook pasta according to package instructions in a large pot of boiling water and salt. Add heavy cream and butter to a large skillet over medium heat until the cream bubbles and the butter melts. Whisk in parmesan and add seasoning (salt and black pepper). Let the sauce thicken slightly and then add the pasta and toss until coated in sauce. Garnish with parsley, and it's ready.",
+    "cuisine": "Italian",
+    "category": "Pasta",
+    "mealType": "Dinner",
+    "diet": "Vegetarian",
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "name": "Fettuccine",
+        "quantity": "1 lb"
+      },
+      {
+        "name": "Heavy Cream",
+        "quantity": "1/2 cup"
+      },
+      {
+        "name": "Butter",
+        "quantity": "1/2 cup"
+      },
+      {
+        "name": "Parmesan",
+        "quantity": "1/2 cup"
+      },
+      {
+        "name": "Parsley",
+        "quantity": "2 tbsp"
+      },
+      {
+        "name": "Black Pepper",
+        "quantity": ""
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=LPPcNPdq_j4",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 25,
+    "calories": 550
+  },
+  {
+    "externalId": "52835",
+    "title": "Fettucine alfredo",
+    "description": "Fettucine alfredo - a pasta recipe from Italian cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/uquqtu1511178042.jpg",
+    "instructions": "In a medium saucepan, stir the clotted cream, butter and cornflour over a low-ish heat and bring to a low simmer. Turn off the heat and keep warm.\r\nMeanwhile, put the cheese and nutmeg in a small bowl and add a good grinding of black pepper, then stir everything together (don’t add any salt at this stage).\r\nPut the pasta in another pan with 2 tsp salt, pour over some boiling water and cook following pack instructions (usually 3-4 mins). When cooked, scoop some of the cooking water into a heatproof jug or mug and drain the pasta, but not too thoroughly.\r\nAdd the pasta to the pan with the clotted cream mixture, then sprinkle over the cheese and gently fold everything together over a low heat using a rubber spatula. When combined, splash in 3 tbsp of the cooking water. At first, the pasta will look wet and sloppy: keep stirring until the water is absorbed and the sauce is glossy. Check the seasoning before transferring to heated bowls. Sprinkle over some chives or parsley, then serve immediately.",
+    "cuisine": "Italian",
+    "category": "Pasta",
+    "mealType": "Dinner",
+    "diet": "Vegetarian",
+    "difficulty": "Medium",
+    "ingredients": [
+      {
+        "name": "Clotted Cream",
+        "quantity": "227g"
+      },
+      {
+        "name": "Butter",
+        "quantity": "25g"
+      },
+      {
+        "name": "Corn Flour",
+        "quantity": "1 tsp"
+      },
+      {
+        "name": "Parmesan Cheese",
+        "quantity": "100g"
+      },
+      {
+        "name": "Nutmeg",
+        "quantity": "Grated"
+      },
+      {
+        "name": "Fettuccine",
+        "quantity": "250g"
+      },
+      {
+        "name": "Parsley",
+        "quantity": "Chopped"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=FLEnwZvGzOE",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 45,
+    "calories": 550
+  },
+  {
+    "externalId": "52829",
+    "title": "Grilled Mac and Cheese Sandwich",
+    "description": "Grilled Mac and Cheese Sandwich - a pasta recipe from United States cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/xutquv1505330523.jpg",
+    "instructions": "Make the mac and cheese\r\n\r\n1. Bring a medium saucepan of generously salted water (you want it to taste like seawater) to a boil. Add the pasta and cook, stirring occasionally, until al dente, 8 to 10 minutes, or according to the package directions. The pasta should be tender but still chewy.\r\n2. While the pasta is cooking, in a small bowl, whisk together the flour, mustard powder, garlic powder, salt, black pepper, and cayenne pepper.\r\n3. Drain the pasta in a colander. Place the empty pasta pan (no need to wash it) over low heat and add the butter. When the butter has melted, whisk in the flour mixture and continue to cook, whisking frequently, until the mixture is beginning to brown and has a pleasant, nutty aroma, about 1 minute. Watch carefully so it does not scorch on the bottom of the pan.\r\n4. Slowly whisk the milk and cream into the flour mixture until everything is really well combined. Cook, whisking constantly, until the sauce is heated through and just begins to thicken, about 2 minutes. Remove from the heat. Gradually add the cheese while stirring constantly with a wooden spoon or silicone spatula and keep stirring until the cheese has melted into the sauce. Then stir in the drained cooked pasta.\r\n5. Line a 9-by-13-inch (23-by-33-centimeter) rimmed baking sheet with parchment paper or aluminum foil. Coat the paper or foil with nonstick cooking spray or slick it with butter. Pour the warm mac and cheese onto the prepared baking sheet and spread it evenly with a spatula. Coat another piece of parchment paper with cooking spray or butter and place it, oiled or buttered side down, directly on the surface of the mac and cheese. Refrigerate until cool and firm, about 1 hour.\r\n\r\nMake the grilled cheese\r\n6. Heat a large cast-iron or nonstick skillet over medium-low heat.\r\n7. In a small bowl, stir together the 4 tablespoons (55 grams) butter and garlic powder until well blended.\r\n8. Remove the mac and cheese from the refrigerator and peel off the top layer of parchment paper. Carefully cut into 8 equal pieces. Each piece will make 1 grilled mac and cheese sandwich. (You can stash each individual portion in a double layer of resealable plastic bags and refrigerate for up to 3 days or freeze it for up to 1 month.)\r\n9. Spread 3/4 teaspoon garlic butter on one side of each bread slice. Place half of the slices, buttered-side down, on a clean cutting board. Top each with one slice of Cheddar, then 1 piece of the mac and cheese. (Transfer from the baking sheet by scooting your hand or a spatula under each piece of mac and cheese and then flipping it over onto a sandwich.) Place 1 slice of Jack on top of each. Finish with the remaining bread slices, buttered-side up.\r\n10. Using a wide spatula, place as many sandwiches in the pan as will fit without crowding it. Cover and cook until the bottoms are nicely browned, about 4 minutes. Turn and cook until the second sides are browned, the cheese is melted, and the mac and cheese is heated through, about 4 minutes more.\r\n11. Repeat with the remaining ingredients. Cut the sandwiches in half, if desired, and serve.",
+    "cuisine": "United States",
+    "category": "Pasta",
+    "mealType": "Lunch",
+    "diet": "Vegetarian",
+    "difficulty": "Hard",
+    "ingredients": [
+      {
+        "name": "Macaroni",
+        "quantity": "8 ounces (230 grams)"
+      },
+      {
+        "name": "Plain Flour",
+        "quantity": "1/3 cup"
+      },
+      {
+        "name": "Mustard Powder",
+        "quantity": "3/4 teaspoon"
+      },
+      {
+        "name": "Garlic powder",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "name": "Kosher salt",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "name": "Black pepper",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "name": "Cayenne pepper",
+        "quantity": "1/8 teaspoon"
+      },
+      {
+        "name": "Butter",
+        "quantity": "6 tablespoons (85 grams)"
+      },
+      {
+        "name": "Whole Milk",
+        "quantity": "1 1/2 cups (360 milliliters)"
+      },
+      {
+        "name": "Heavy Cream",
+        "quantity": "1 cup (240 milliliters)"
+      },
+      {
+        "name": "Monterey Jack Cheese",
+        "quantity": "1 pound (455 grams)"
+      },
+      {
+        "name": "Butter",
+        "quantity": "4 tablespoons (55 grams)"
+      },
+      {
+        "name": "garlic powder",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "name": "Bread",
+        "quantity": "16 slices square"
+      },
+      {
+        "name": "Cheddar Cheese",
+        "quantity": "8 slices mild"
+      },
+      {
+        "name": "Colby Jack Cheese",
+        "quantity": "8 slices"
+      },
+      {
+        "name": "Butter",
+        "quantity": "4 tablespoons (55 grams)"
+      }
+    ],
+    "tags": [
+      "Cheesy"
+    ],
+    "youtubeUrl": "https://www.youtube.com/watch?v=PYq31xLj-DY",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 60,
+    "calories": 550
+  },
+  {
+    "externalId": "52987",
+    "title": "Lasagna Sandwiches",
+    "description": "Lasagna Sandwiches - a pasta recipe from United States cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/xr0n4r1576788363.jpg",
+    "instructions": "1. In a small bowl, combine the first four ingredients; spread on four slices of bread. Layer with bacon, tomato and cheese; top with remaining bread.\r\n\r\n2. In a large skillet or griddle, melt 2 tablespoons butter. Toast sandwiches until lightly browned on both sides and cheese is melted, adding butter if necessary.\r\n\r\nNutrition Facts\r\n1 sandwich: 445 calories, 24g fat (12g saturated fat), 66mg cholesterol, 1094mg sodium, 35g carbohydrate (3g sugars, 2g fiber), 21g protein.",
+    "cuisine": "United States",
+    "category": "Pasta",
+    "mealType": "Lunch",
+    "diet": "Vegetarian",
+    "difficulty": "Medium",
+    "ingredients": [
+      {
+        "name": "Sour Cream",
+        "quantity": "1/4 cup"
+      },
+      {
+        "name": "Chopped Onion",
+        "quantity": "2 tbs"
+      },
+      {
+        "name": "Dried Oregano",
+        "quantity": "1/2 tbs"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1/4 tsp"
+      },
+      {
+        "name": "Bread",
+        "quantity": "8 slices"
+      },
+      {
+        "name": "Bacon",
+        "quantity": "8 slices"
+      },
+      {
+        "name": "Tomato",
+        "quantity": "8 slices"
+      },
+      {
+        "name": "Mozzarella",
+        "quantity": "4 slices"
+      },
+      {
+        "name": "Butter",
+        "quantity": "2 1/2 Tbs"
+      }
+    ],
+    "tags": [
+      "Sandwich"
+    ],
+    "youtubeUrl": "",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 45,
+    "calories": 550
+  },
+  {
+    "externalId": "53120",
+    "title": "Æbleskiver",
+    "description": "Æbleskiver - a dessert recipe from Norway cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/wkhg581762773124.jpg",
+    "instructions": "Whisk the flour, salt, sugar, baking soda, and cardamom together in a large bowl.\r\n▢\r\nSeparate the eggs and add the egg yolks to the flour mixture. Pour in the buttermilk (or cultured milk) and whisk the batter together until smooth. Cover and refrigerate for about 30 minutes.\r\n▢\r\nUse a hand (or stand) mixer to beat the egg whites until stiff. Carefully fold into the æbleskiver batter.\r\n▢\r\nHeat the pan on medium heat. Once hot, brush the pan with butter and fill each æbleskive hole almost full with the batter.\r\n▢\r\nOnce the edges become firm use a knitting needle or wooden skewer to turn the æbleskiver about 1/4. Continue turning until you get round pancake spheres. They should be golden brown.\r\n▢\r\nRemove the æbleskiver from the pan and serve with powdered sugar and jam.",
+    "cuisine": "Norway",
+    "category": "Dessert",
+    "mealType": "Dessert",
+    "diet": "Vegetarian",
+    "difficulty": "Medium",
+    "ingredients": [
+      {
+        "name": "Flour",
+        "quantity": "2 cups"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "name": "Granulated Sugar",
+        "quantity": "2 tblsp"
+      },
+      {
+        "name": "Baking Powder",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "name": "Cardamom",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "name": "Egg",
+        "quantity": "3"
+      },
+      {
+        "name": "Buttermilk",
+        "quantity": "2 cups"
+      },
+      {
+        "name": "Butter",
+        "quantity": "For Greasing"
+      },
+      {
+        "name": "Powdered Sugar",
+        "quantity": "Sprinkling"
+      },
+      {
+        "name": "Raspberry Jam",
+        "quantity": "1 scoop"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "https://www.bing.com/videos/riverview/relatedvideo?q=%c3%86bleskiver+youtube&mid=51AACE2C82038350B94751AACE2C82038350B947&mcid=A08CDF0451414C328A8BAB1912DD11D4&FORM=VIRE",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 45,
+    "calories": 350
+  },
+  {
+    "externalId": "53138",
+    "title": "Alfajores",
+    "description": "Alfajores - a dessert recipe from Argentina cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/a4kgf21763075288.jpg",
+    "instructions": "Make the Dough: Cream butter and sugar. Add egg yolks and lemon zest. Gradually mix in flour and cornstarch to form a dough. Chill for 1 hour.\r\nBake the Cookies: Roll out the dough, cut into circles, and bake at 180°C (350°F) for 12-15 minutes. Let cool.\r\nAssemble: Spread dulce de leche on one cookie, then sandwich with another. Roll the edges in coconut flakes.\r\nPro Tips:\r\n\r\nChill the dough before rolling it out to make it easier to handle and to prevent the cookies from spreading too much while baking.\r\nDip the alfajores in melted chocolate and let them set on a wire rack for an extra decadent treat.",
+    "cuisine": "Argentina",
+    "category": "Dessert",
+    "mealType": "Dessert",
+    "diet": "Vegetarian",
+    "difficulty": "Medium",
+    "ingredients": [
+      {
+        "name": "All purpose flour",
+        "quantity": "300g"
+      },
+      {
+        "name": "Cornstarch",
+        "quantity": "200g"
+      },
+      {
+        "name": "Butter",
+        "quantity": "200g"
+      },
+      {
+        "name": "Sugar",
+        "quantity": "100g"
+      },
+      {
+        "name": "Egg Yolks",
+        "quantity": "2"
+      },
+      {
+        "name": "Lemon Zest",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "name": "Dulce de leche",
+        "quantity": ""
+      },
+      {
+        "name": "Desiccated Coconut",
+        "quantity": "Sprinkling"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=9WR40GHpsyo",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 45,
+    "calories": 350
+  },
+  {
+    "externalId": "53111",
+    "title": "Anzac biscuits",
+    "description": "Anzac biscuits - a dessert recipe from Australian cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/q47rkb1762324620.jpg",
+    "instructions": "step 1\r\nHeat oven to 180C/fan 160C/gas 4. Put the oats, coconut, flour and sugar in a bowl. Melt the butter in a small pan and stir in the golden syrup. Add the bicarbonate of soda to 2 tbsp boiling water, then stir into the golden syrup and butter mixture.\r\n\r\nstep 2\r\nMake a well in the middle of the dry ingredients and pour in the butter and golden syrup mixture. Stir gently to incorporate the dry ingredients.\r\n\r\nstep 3\r\nPut dessertspoonfuls of the mixture on to buttered baking sheets, about 2.5cm/1in apart to allow room for spreading. Bake in batches for 8-10 mins until golden. Transfer to a wire rack to cool.",
+    "cuisine": "Australian",
+    "category": "Dessert",
+    "mealType": "Dessert",
+    "diet": "Vegetarian",
+    "difficulty": "Medium",
+    "ingredients": [
+      {
+        "name": "Porridge oats",
+        "quantity": "85g"
+      },
+      {
+        "name": "Desiccated Coconut",
+        "quantity": "85g"
+      },
+      {
+        "name": "Plain Flour",
+        "quantity": "100g"
+      },
+      {
+        "name": "Caster Sugar",
+        "quantity": "100g"
+      },
+      {
+        "name": "Butter",
+        "quantity": "100g"
+      },
+      {
+        "name": "Golden Syrup",
+        "quantity": "1 tblsp"
+      },
+      {
+        "name": "Bicarbonate Of Soda",
+        "quantity": "1 teaspoon"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=1nAVbfQVWRQ",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 45,
+    "calories": 350
+  },
+  {
+    "externalId": "53049",
+    "title": "Apam balik",
+    "description": "Apam balik - a dessert recipe from Malaysian cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/adxcbq1619787919.jpg",
+    "instructions": "Mix milk, oil and egg together. Sift flour, baking powder and salt into the mixture. Stir well until all ingredients are combined evenly.\r\n\r\nSpread some batter onto the pan. Spread a thin layer of batter to the side of the pan. Cover the pan for 30-60 seconds until small air bubbles appear.\r\n\r\nAdd butter, cream corn, crushed peanuts and sugar onto the pancake. Fold the pancake into half once the bottom surface is browned.\r\n\r\nCut into wedges and best eaten when it is warm.",
+    "cuisine": "Malaysian",
+    "category": "Dessert",
+    "mealType": "Dessert",
+    "diet": "Vegetarian",
+    "difficulty": "Medium",
+    "ingredients": [
+      {
+        "name": "Milk",
+        "quantity": "200ml"
+      },
+      {
+        "name": "Oil",
+        "quantity": "60ml"
+      },
+      {
+        "name": "Eggs",
+        "quantity": "2"
+      },
+      {
+        "name": "Flour",
+        "quantity": "1600g"
+      },
+      {
+        "name": "Baking Powder",
+        "quantity": "3 tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1/2 tsp"
+      },
+      {
+        "name": "Unsalted Butter",
+        "quantity": "25g"
+      },
+      {
+        "name": "Sugar",
+        "quantity": "45g"
+      },
+      {
+        "name": "Peanut Butter",
+        "quantity": "3 tbs"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=6R8ffRRJcrg",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 45,
+    "calories": 350
+  },
+  {
+    "externalId": "52893",
+    "title": "Apple & Blackberry Crumble",
+    "description": "Apple & Blackberry Crumble - a dessert recipe from British cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/xvsurr1511719182.jpg",
+    "instructions": "Heat oven to 190C/170C fan/gas 5. Tip the flour and sugar into a large bowl. Add the butter, then rub into the flour using your fingertips to make a light breadcrumb texture. Do not overwork it or the crumble will become heavy. Sprinkle the mixture evenly over a baking sheet and bake for 15 mins or until lightly coloured.\r\nMeanwhile, for the compote, peel, core and cut the apples into 2cm dice. Put the butter and sugar in a medium saucepan and melt together over a medium heat. Cook for 3 mins until the mixture turns to a light caramel. Stir in the apples and cook for 3 mins. Add the blackberries and cinnamon, and cook for 3 mins more. Cover, remove from the heat, then leave for 2-3 mins to continue cooking in the warmth of the pan.\r\nTo serve, spoon the warm fruit into an ovenproof gratin dish, top with the crumble mix, then reheat in the oven for 5-10 mins. Serve with vanilla ice cream.",
+    "cuisine": "British",
+    "category": "Dessert",
+    "mealType": "Dessert",
+    "diet": "Vegetarian",
+    "difficulty": "Medium",
+    "ingredients": [
+      {
+        "name": "Plain Flour",
+        "quantity": "120g"
+      },
+      {
+        "name": "Caster Sugar",
+        "quantity": "60g"
+      },
+      {
+        "name": "Butter",
+        "quantity": "60g"
+      },
+      {
+        "name": "Braeburn Apples",
+        "quantity": "300g"
+      },
+      {
+        "name": "Butter",
+        "quantity": "30g"
+      },
+      {
+        "name": "Demerara Sugar",
+        "quantity": "30g"
+      },
+      {
+        "name": "Blackberries",
+        "quantity": "120g"
+      },
+      {
+        "name": "Cinnamon",
+        "quantity": "¼ teaspoon"
+      },
+      {
+        "name": "Ice Cream",
+        "quantity": "to serve"
+      }
+    ],
+    "tags": [
+      "Pudding"
+    ],
+    "youtubeUrl": "https://www.youtube.com/watch?v=4vhcOwVBDO4",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 45,
+    "calories": 350
+  },
+  {
+    "externalId": "53430",
+    "title": "Antiguan Breakfast (Chop Up and ‘Saltfish’)",
+    "description": "Antiguan Breakfast (Chop Up and ‘Saltfish’) - a breakfast recipe from international cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/jvjnoh1780086318.jpg",
+    "instructions": "Peel and chop eggplant and pumpkin into medium-sized pieces.\r\n\r\nHeat butter and add onions and garlic in a medium sized pot set to medium to high heat. Sauté for 2 minutes until softened but not browned.\r\nAdd pumpkin and eggplant. Sauté for an additional two to three minutes.\r\nAdd water just to cover the vegetables. Bring to a boil, reduce heat to a simmer and cook until the vegetables are soft.\r\nAdd the chopped spinach, stir and cook for an additional 3 minutes.\r\nPour the vegetable mixture into a colander and let drain.\r\nAfter vegetable mixture has been drained return it to the pot and mash vigorously with a potato masher or a thick whisk.\r\nAdd salt and pepper. Adjust seasoning to taste.",
+    "cuisine": "International",
+    "category": "Breakfast",
+    "mealType": "Breakfast",
+    "diet": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "ingredients": [
+      {
+        "name": "Egg Plants",
+        "quantity": "4"
+      },
+      {
+        "name": "Callaloo",
+        "quantity": "8 oz"
+      },
+      {
+        "name": "Pumpkin",
+        "quantity": "1 lb"
+      },
+      {
+        "name": "Garlic",
+        "quantity": "3 cloves Chopped"
+      },
+      {
+        "name": "Onion",
+        "quantity": "1 Diced"
+      },
+      {
+        "name": "Butter",
+        "quantity": "2 oz"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1/2 tsp"
+      },
+      {
+        "name": "Black Pepper",
+        "quantity": "1/4 tsp"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 45,
+    "calories": 400
+  },
+  {
+    "externalId": "53076",
+    "title": "Bread omelette",
+    "description": "Bread omelette - a breakfast recipe from India cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/hqaejl1695738653.jpg",
+    "instructions": "Make and enjoy",
+    "cuisine": "India",
+    "category": "Breakfast",
+    "mealType": "Breakfast",
+    "diet": "Vegetarian",
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "name": "Bread",
+        "quantity": "2"
+      },
+      {
+        "name": "Egg",
+        "quantity": "2"
+      },
+      {
+        "name": "Salt",
+        "quantity": "0.5"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 25,
+    "calories": 400
+  },
+  {
+    "externalId": "52965",
+    "title": "Breakfast Potatoes",
+    "description": "Breakfast Potatoes - a breakfast recipe from Canadian cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/1550441882.jpg",
+    "instructions": "Before you do anything, freeze your bacon slices that way when you're ready to prep, it'll be so much easier to chop!\r\nWash the potatoes and cut medium dice into square pieces. To prevent any browning, place the already cut potatoes in a bowl filled with water.\r\nIn the meantime, heat 1-2 tablespoons of oil in a large skillet over medium-high heat. Tilt the skillet so the oil spreads evenly.\r\nOnce the oil is hot, drain the potatoes and add to the skillet. Season with salt, pepper, and Old Bay as needed.\r\nCook for 10 minutes, stirring the potatoes often, until brown. If needed, add a tablespoon more of oil.\r\nChop up the bacon and add to the potatoes. The bacon will start to render and the fat will begin to further cook the potatoes. Toss it up a bit! The bacon will take 5-6 minutes to crisp.\r\nOnce the bacon is cooked, reduce the heat to medium-low, add the minced garlic and toss. Season once more. Add dried or fresh parsley. Control heat as needed.\r\nLet the garlic cook until fragrant, about one minute.\r\nJust before serving, drizzle over the maple syrup and toss. Let that cook another minute, giving the potatoes a caramelized effect.\r\nServe in a warm bowl with a sunny side up egg!",
+    "cuisine": "Canadian",
+    "category": "Breakfast",
+    "mealType": "Breakfast",
+    "diet": "Vegetarian",
+    "difficulty": "Medium",
+    "ingredients": [
+      {
+        "name": "Potatoes",
+        "quantity": "3 Medium"
+      },
+      {
+        "name": "Olive Oil",
+        "quantity": "1 tbs"
+      },
+      {
+        "name": "Bacon",
+        "quantity": "2 strips"
+      },
+      {
+        "name": "Garlic Clove",
+        "quantity": "Minced"
+      },
+      {
+        "name": "Maple Syrup",
+        "quantity": "1 tbs"
+      },
+      {
+        "name": "Parsley",
+        "quantity": "Garnish"
+      },
+      {
+        "name": "Salt",
+        "quantity": "Pinch"
+      },
+      {
+        "name": "Pepper",
+        "quantity": "Pinch"
+      },
+      {
+        "name": "Allspice",
+        "quantity": "To taste"
+      }
+    ],
+    "tags": [
+      "Breakfast",
+      "Brunch"
+    ],
+    "youtubeUrl": "https://www.youtube.com/watch?v=BoD0TIO9nE4",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 45,
+    "calories": 400
+  },
+  {
+    "externalId": "53379",
+    "title": "Dutch poffertjes (mini pancakes)",
+    "description": "Dutch poffertjes (mini pancakes) - a breakfast recipe from Netherlands cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/oaqz9f1766593912.jpg",
+    "instructions": "Mix the dry yeast with some of the luke warm milk en stir until dissolved.\r\nPlace buckwheat and the flour together in a bowl and make a small circle in the middle. Add the yeast mixture into it. Add the milk and stir until you have a smooth batter.\r\nAdd the eggs, salt and vanille sugar and stir through. Leave to stand and rise for about 45 minutes.\r\nHeat the poffertjespan and add a bit of butter into each hole. Fill halfway with batter and first bake one side until you can see the top dry out a little. Turn the poffertjes around with a small fork and bake the other side until cooked and golden brown.\r\nServe the poffertjes with butter and icing sugar",
+    "cuisine": "Netherlands",
+    "category": "Breakfast",
+    "mealType": "Breakfast",
+    "diet": "Vegetarian",
+    "difficulty": "Medium",
+    "ingredients": [
+      {
+        "name": "Flour",
+        "quantity": "125g"
+      },
+      {
+        "name": "Buckwheat Flour",
+        "quantity": "125g"
+      },
+      {
+        "name": "Eggs",
+        "quantity": "2"
+      },
+      {
+        "name": "Butter",
+        "quantity": "1 knob"
+      },
+      {
+        "name": "Milk",
+        "quantity": "300ml"
+      },
+      {
+        "name": "Yeast",
+        "quantity": "10g"
+      },
+      {
+        "name": "vanilla sugar",
+        "quantity": "1tsp"
+      },
+      {
+        "name": "Butter",
+        "quantity": "To serve"
+      },
+      {
+        "name": "Icing Sugar",
+        "quantity": "To serve"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=gK1b5gymAUY",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 45,
+    "calories": 400
+  },
+  {
+    "externalId": "52895",
+    "title": "English Breakfast",
+    "description": "English Breakfast - a breakfast recipe from British cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/utxryw1511721587.jpg",
+    "instructions": "Heat the flat grill plate over a low heat, on top of 2 rings/flames if it fits, and brush sparingly with light olive oil.\r\nCook the sausages first. Add the sausages to the hot grill plate/the coolest part if there is one and allow to cook slowly for about 15-20 minutes, turning occasionally, until golden. After the first 10 minutes, increase the heat to medium before beginning to cook the other ingredients. If you are struggling for space, completely cook the sausages and keep hot on a plate in the oven.\r\nSnip a few small cuts into the fatty edge of the bacon. Place the bacon straight on to the grill plate and fry for 2-4 minutes each side or until your preferred crispiness is reached. Like the sausages, the cooked bacon can be kept hot on a plate in the oven.\r\nFor the mushrooms, brush away any dirt using a pastry brush and trim the stalk level with the mushroom top. Season with salt and pepper and drizzle over a little olive oil. Place stalk-side up on the grill plate and cook for 1-2 minutes before turning and cooking for a further 3-4 minutes. Avoid moving the mushrooms too much while cooking, as this releases the natural juices, making them soggy.\r\nFor the tomatoes, cut the tomatoes across the centre/or in half lengthways if using plum tomatoes , and with a small, sharp knife remove the green 'eye'. Season with salt and pepper and drizzle with a little olive oil. Place cut-side down on the grill plate and cook without moving for 2 minutes. Gently turn over and season again. Cook for a further 2-3 minutes until tender but still holding their shape.\r\nFor the black pudding, cut the black pudding into 3-4 slices and remove the skin. Place on the grill plate and cook for 1½-2 minutes each side until slightly crispy.\r\nFor 'proper' fried bread it's best to cook it in a separate pan. Ideally, use bread that is a couple of days old. Heat a frying pan to a medium heat and cover the base with oil. Add the bread and cook for 2-3 minutes each side until crispy and golden. If the pan becomes too dry, add a little more oil. For a richer flavour, add a knob of butter after you turn the slice.\r\nFor the fried eggs, break the egg straight into the pan with the fried bread and leave for 30 seconds. Add a good knob of butter and lightly splash/baste the egg with the butter when melted. Cook to your preferred stage, season and gently remove with a fish slice.\r\nOnce all the ingredients are cooked, serve on warm plates and enjoy straight away with a good squeeze of tomato ketchup or brown sauce.",
+    "cuisine": "British",
+    "category": "Breakfast",
+    "mealType": "Breakfast",
+    "diet": "Vegetarian",
+    "difficulty": "Hard",
+    "ingredients": [
+      {
+        "name": "Sausages",
+        "quantity": "2"
+      },
+      {
+        "name": "Bacon",
+        "quantity": "3"
+      },
+      {
+        "name": "Mushrooms",
+        "quantity": "2"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": "2"
+      },
+      {
+        "name": "Black Pudding",
+        "quantity": "1 Slice"
+      },
+      {
+        "name": "Eggs",
+        "quantity": "2"
+      },
+      {
+        "name": "Bread",
+        "quantity": "1 Slice"
+      }
+    ],
+    "tags": [
+      "Breakfast"
+    ],
+    "youtubeUrl": "https://www.youtube.com/watch?v=FXjYU2Ensck",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 60,
+    "calories": 400
+  },
+  {
+    "externalId": "53262",
+    "title": "Adana kebab",
+    "description": "Adana kebab - a lamb recipe from Turkish cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/04axct1763793018.jpg",
+    "instructions": "step 1\r\nFinely chop the peppers in a food processor, then tip them in a sieve and press into the sieve so that the peppers release all of their juices. Tip into a bowl along with the mince, red pepper paste, pul biber, 1½ tsp flaky sea salt, and 2 tbsp of the oil. Mix together, kneading well for at least 2-3 mins. If you need to, wet your hands with cold water to prevent the mixture from sticking. The mixture should be sticky when ready. Cover and chill for at least 2 hrs, or up to 12 hrs.\r\n\r\nstep 2\r\nWhen ready to cook, heat the grill to high or an oven to 220C/200C fan/gas 6. Divide the mixture into 12 equal portions, around 85g each. If you’d like to skewer them, divide into 8 equal portions and roll into balls. Using wet hands, thread the balls onto the end of the skewers, massaging the mixture down the skewers in between the palms of your hands, until evenly distributed. Ensure that the mixture is fully wrapped tightly around the skewers without any exposed metal. Alternatively, lay them on a large baking tray lined with parchment paper if cooking in the oven, or foil if cooking under the grill. Shape into 20cm-long köfte. Wet your fingers with a little cold water and make indents all along the köfte for the traditional shape.\r\n\r\nstep 3\r\nGently brush each köfte with the remaining 1 tbsp oil and cook under the grill, on the top shelf for 10-12 mins, turning regularly, or cook in the oven for 16-18 mins, until crispy on the outside and juicy in the middle",
+    "cuisine": "Turkish",
+    "category": "Lamb",
+    "mealType": "Dinner",
+    "diet": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "ingredients": [
+      {
+        "name": "Romano Pepper",
+        "quantity": "2 large"
+      },
+      {
+        "name": "Lamb Mince",
+        "quantity": "800g"
+      },
+      {
+        "name": "Red Pepper Paste",
+        "quantity": "3  tablespoons"
+      },
+      {
+        "name": "Pul Biber",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "name": "Sunflower Oil",
+        "quantity": "3  tablespoons"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=Wj7sXu9B_ME",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 45,
+    "calories": 550
+  },
+  {
+    "externalId": "53265",
+    "title": "Chilli ginger lamb chops",
+    "description": "Chilli ginger lamb chops - a lamb recipe from Turkish cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/8xuvhj1763794991.jpg",
+    "instructions": "step 1\r\nPut the garlic in a bowl with the ginger, lemon juice, oil, spices and seasoning. Blitz with a hand blender until smooth, then use to coat the lamb chops on both sides. Leave to marinate in the fridge for a couple of hours or overnight.\r\n\r\nstep 2\r\nHeat a barbecue until hot. Barbecue the chops over the coals for 3 mins on each side until cooked but still pink and juicy in the centre.",
+    "cuisine": "Turkish",
+    "category": "Lamb",
+    "mealType": "Dinner",
+    "diet": "Non-Vegetarian",
+    "difficulty": "Medium",
+    "ingredients": [
+      {
+        "name": "Garlic",
+        "quantity": "4 Cloves Crushed"
+      },
+      {
+        "name": "Ginger",
+        "quantity": "1 tblsp"
+      },
+      {
+        "name": "Lemon Juice",
+        "quantity": "1 tblsp"
+      },
+      {
+        "name": "Olive Oil",
+        "quantity": "1 tblsp"
+      },
+      {
+        "name": "Chili Powder",
+        "quantity": "1/2 tsp"
+      },
+      {
+        "name": "Cumin",
+        "quantity": "1 tsp"
+      },
+      {
+        "name": "Lamb Loin Chops",
+        "quantity": "8"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=MNrNHToyvtI",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 45,
+    "calories": 550
+  },
+  {
+    "externalId": "53289",
+    "title": "Chorba Hamra bel Frik (Algerian Lamb, Tomato, and Freekeh Soup)",
+    "description": "Chorba Hamra bel Frik (Algerian Lamb, Tomato, and Freekeh Soup) - a lamb recipe from Algerian cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/p9tebp1764118792.jpg",
+    "instructions": "Place freekeh in a small bowl and cover with cold water. Set aside.\r\n\r\nCombine lamb, onion, black pepper, paprika, cinnamon, and salt in a pot. Stir in oil, 1/2 the cilantro, 1/2 the mint, and celery stalk until combined. Simmer over low heat for 15 minutes. Stir in chickpeas; pour in just enough water to cover, and return to a simmer. Stir in zucchini, carrot, and tomato paste.\r\n\r\nSet a steamer over the pot; add tomatoes. Cover and steam tomatoes until soft, about 5 minutes. Crush tomatoes using a wooden spoon, so pulp drips into soup. Remove the steamer and discard leftover tomato peels.\r\n\r\nAdd potato to soup and just enough water to cover. Simmer until potato is soft, about 10 minutes.\r\n\r\nDrain freekeh and add to soup. Simmer until soft, about 15 minutes. Remove celery stalk and discard. Sprinkle soup with remaining 1/2 cilantro and remaining 1/2 mint before serving.",
+    "cuisine": "Algerian",
+    "category": "Lamb",
+    "mealType": "Lunch",
+    "diet": "Non-Vegetarian",
+    "difficulty": "Hard",
+    "ingredients": [
+      {
+        "name": "Freekeh",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Lamb",
+        "quantity": "12 ounces"
+      },
+      {
+        "name": "Onion",
+        "quantity": "1 finely chopped"
+      },
+      {
+        "name": "Black Pepper",
+        "quantity": "1 tsp"
+      },
+      {
+        "name": "Paprika",
+        "quantity": "1 tsp"
+      },
+      {
+        "name": "Ground Cinnamon",
+        "quantity": "1 tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": "To taste"
+      },
+      {
+        "name": "Vegetable Oil",
+        "quantity": "3  tablespoons"
+      },
+      {
+        "name": "Cilantro",
+        "quantity": "1  bunch"
+      },
+      {
+        "name": "Mint",
+        "quantity": "1  bunch"
+      },
+      {
+        "name": "Celery",
+        "quantity": "1"
+      },
+      {
+        "name": "Chickpeas",
+        "quantity": "14 oz jar"
+      },
+      {
+        "name": "Water",
+        "quantity": "4 cups"
+      },
+      {
+        "name": "Zucchini",
+        "quantity": "1 Diced"
+      },
+      {
+        "name": "Carrots",
+        "quantity": "1 Diced"
+      },
+      {
+        "name": "Tomato Puree",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "name": "Tomato",
+        "quantity": "3 Medium"
+      },
+      {
+        "name": "Potatoes",
+        "quantity": "1 Diced"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=2z6IldJl_lQ",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 60,
+    "calories": 550
+  },
+  {
+    "externalId": "52885",
+    "title": " Bubble & Squeak",
+    "description": " Bubble & Squeak - a pork recipe from British cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/xusqvw1511638311.jpg",
+    "instructions": "Melt the fat in a non-stick pan, allow it to get nice and hot, then add the bacon. As it begins to brown, add the onion and garlic. Next, add the sliced sprouts or cabbage and let it colour slightly. All this will take 5-6 mins.\r\nNext, add the potato. Work everything together in the pan and push it down so that the mixture covers the base of the pan – allow the mixture to catch slightly on the base of the pan before turning it over and doing the same again. It’s the bits of potato that catch in the pan that define the term ‘bubble and squeak’, so be brave and let the mixture colour. Cut into wedges and serve.",
+    "cuisine": "British",
+    "category": "Pork",
+    "mealType": "Dinner",
+    "diet": "Vegetarian",
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "name": "Butter",
+        "quantity": "1 tbs"
+      },
+      {
+        "name": "Bacon",
+        "quantity": "4"
+      },
+      {
+        "name": "Onion",
+        "quantity": "1 finely sliced"
+      },
+      {
+        "name": "Garlic Clove",
+        "quantity": "1 chopped"
+      },
+      {
+        "name": "Brussels Sprouts",
+        "quantity": "20"
+      },
+      {
+        "name": "Potatoes",
+        "quantity": "400g"
+      }
+    ],
+    "tags": [
+      "SideDish",
+      "Speciality"
+    ],
+    "youtubeUrl": "https://www.youtube.com/watch?v=etbJ9ssgsWY",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 25,
+    "calories": 550
+  },
+  {
+    "externalId": "53156",
+    "title": "Arroz al horno (baked rice)",
+    "description": "Arroz al horno (baked rice) - a pork recipe from Spanish cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/qt4i0n1763256454.jpg",
+    "instructions": "step 1\r\nHeat oven to 200C/180C/gas 6. Heat half the oil in a deep frying or sauté pan (or shallow casserole dish) measuring around 30cm in diameter. Over a high heat, colour the pork belly slices on each side in several batches, then transfer to a bowl. Add the remaining oil to the pan and lower the heat to medium, then add the black pudding and bacon and fry all over for several mins. Remove with a slotted spoon. Fry the onion and peppers for around 10 mins until soft and pale gold, then add the tomato and cook until soft. Add the garlic, smoked paprika and chilli flakes and cook for another 2 mins, then put the pork, black pudding and bacon back in the pan. Add the beans, stock and whichever herb you're using, and bring everything to the boil.\r\n\r\nstep 2\r\nSprinkle the rice around the pork belly, pushing it underneath the stock. Let the stock come to the boil again, season well, then transfer to the oven (leave it uncovered). Cook for 20 mins without stirring, then check to see how the rice is doing. The rice should be tender and the stock absorbed. If it’s not ready, put back in the oven for another 5 mins, then check again. Taste for seasoning.\r\n\r\nstep 3\r\nSqueeze lemon juice over the top and drizzle over some extra virgin olive oil just before serving, if you like.",
+    "cuisine": "Spanish",
+    "category": "Pork",
+    "mealType": "Dinner",
+    "diet": "Non-Vegetarian",
+    "difficulty": "Hard",
+    "ingredients": [
+      {
+        "name": "Extra Virgin Olive Oil",
+        "quantity": "2 tbsp"
+      },
+      {
+        "name": "Pork belly slices",
+        "quantity": "800g"
+      },
+      {
+        "name": "Black Pudding",
+        "quantity": "150g"
+      },
+      {
+        "name": "Bacon lardon",
+        "quantity": "100g"
+      },
+      {
+        "name": "Onion",
+        "quantity": "1 chopped"
+      },
+      {
+        "name": "Red Pepper",
+        "quantity": "2"
+      },
+      {
+        "name": "Plum Tomatoes",
+        "quantity": "1 chopped"
+      },
+      {
+        "name": "Garlic Clove",
+        "quantity": "8"
+      },
+      {
+        "name": "Paprika",
+        "quantity": "4 teaspoons"
+      },
+      {
+        "name": "Chilli Flakes",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "name": "Dried white beans",
+        "quantity": "200g"
+      },
+      {
+        "name": "Chicken Stock",
+        "quantity": "1 1/2 L"
+      },
+      {
+        "name": "Thyme",
+        "quantity": "6 parts"
+      },
+      {
+        "name": "Paella Rice",
+        "quantity": "375g"
+      },
+      {
+        "name": "Lemon Juice",
+        "quantity": "1"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=f-waAIrn2iA",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 60,
+    "calories": 550
+  },
+  {
+    "externalId": "53354",
+    "title": "Jamaican Curry Goat",
+    "description": "Jamaican Curry Goat - a goat recipe from Jamaican cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/uc9qp11764796575.jpg",
+    "instructions": "Equipment\r\n\r\n6QT Pressure cooker\r\n\r\nInstructions\r\n \r\nRinse goat meat with vinegar and water.\r\nSeason goat meat with 1 ½ tablespoon curry powder, all-purpose seasoning, ground ginger, allspice, onion, garlic cloves, and thyme. Marinate for at least 4 hours or up to overnight.\r\nRemove onion and garlic from goat and set aside.\r\nSet an electric pressure cooker, like an Instant Pot, on high sauté and add oil. Add goat meat and brown, about 2-3 minutes per side. Remove goat from insert and add 1 tablespoon oil and remaining curry powder and sauté for about 10 seconds. Then add onions and garlic and sauté until softened. About 4 minutes. If the onions look dry, add a little water and continue to sauté.\r\nAdd goat and water to the pressure cooker and cover the pressure cooker. Cook for 40 minutes on high pressure. Allow to naturally release for 10 minutes, then release the remaining pressure.\r\nOnce all the pressure has been released, open the pressure cooker. Place on sauté for 10-15 minutes, add potatoes and a whole scotch bonnet pepper. Cook until potatoes have softened. Remove scotch bonnet pepper.",
+    "cuisine": "Jamaican",
+    "category": "Goat",
+    "mealType": "Dinner",
+    "diet": "Non-Vegetarian",
+    "difficulty": "Hard",
+    "ingredients": [
+      {
+        "name": "Goat Meat",
+        "quantity": "3 Lbs"
+      },
+      {
+        "name": "Jamaican Curry Powder",
+        "quantity": "2.5 tbsp"
+      },
+      {
+        "name": "Ground Ginger",
+        "quantity": "1/2 tsp"
+      },
+      {
+        "name": "All-purpose Seasoning",
+        "quantity": "1/2 tsp"
+      },
+      {
+        "name": "Allspice",
+        "quantity": "1/4 tsp"
+      },
+      {
+        "name": "Onion",
+        "quantity": "1 chopped"
+      },
+      {
+        "name": "Garlic",
+        "quantity": "6 cloves sliced"
+      },
+      {
+        "name": "Thyme",
+        "quantity": "3 sprigs"
+      },
+      {
+        "name": "Oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "name": "Water",
+        "quantity": "1 1/4 cup"
+      },
+      {
+        "name": "Scotch Bonnet",
+        "quantity": "1"
+      },
+      {
+        "name": "Russet Potato",
+        "quantity": "1 large"
+      },
+      {
+        "name": "Salt",
+        "quantity": "To taste"
+      },
+      {
+        "name": "Pepper",
+        "quantity": "To taste"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=SrX2KMsWbF4",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 60,
+    "calories": 550
+  },
+  {
+    "externalId": "53527",
+    "title": "Achiote Oil (Aceite Achiotado) Recipe",
+    "description": "Achiote Oil (Aceite Achiotado) Recipe - a miscellaneous recipe from international cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/iuws3q1783801530.jpg",
+    "instructions": "Heat the vegetable or olive oil and Achiote seeds in a small skillet over medium heat for about 2 to 3 minutes.\r\nDon't let the seeds turn black. Remove the skillet from the heat and let stand for 5 minutes more. Strain the oil and store for up to 15 days at room temperature in a jar with a tight lid.",
+    "cuisine": "International",
+    "category": "Miscellaneous",
+    "mealType": "Dinner",
+    "diet": "Vegetarian",
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "name": "Vegetable Oil",
+        "quantity": "2 cups"
+      },
+      {
+        "name": "Achiote Seeds",
+        "quantity": "4 tablespoons"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 25,
+    "calories": 550
+  },
+  {
+    "externalId": "53525",
+    "title": "Ají de Aguacate Recipe (Colombian Spicy Avocado Sauce)",
+    "description": "Ají de Aguacate Recipe (Colombian Spicy Avocado Sauce) - a miscellaneous recipe from international cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/jyvy8u1783800448.jpg",
+    "instructions": "Place all the ingredients in a food processor. Process until the mixture is well combined.\r\nIf the mixture is too thick, add more lime juice until you reach the desired consistency.",
+    "cuisine": "International",
+    "category": "Miscellaneous",
+    "mealType": "Dinner",
+    "diet": "Vegetarian",
+    "difficulty": "Medium",
+    "ingredients": [
+      {
+        "name": "Avocado",
+        "quantity": "2"
+      },
+      {
+        "name": "Habanero Pepper",
+        "quantity": "1"
+      },
+      {
+        "name": "Egg",
+        "quantity": "1"
+      },
+      {
+        "name": "Lime",
+        "quantity": "Juice of 2"
+      },
+      {
+        "name": "Salt",
+        "quantity": "To taste"
+      },
+      {
+        "name": "Vinegar",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "name": "Onion",
+        "quantity": "1 chopped"
+      },
+      {
+        "name": "Scallions",
+        "quantity": "2 chopped"
+      },
+      {
+        "name": "Cilantro",
+        "quantity": "4 tablespoons"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 45,
+    "calories": 550
+  },
+  {
+    "externalId": "52848",
+    "title": "Bean & Sausage Hotpot",
+    "description": "Bean & Sausage Hotpot - a miscellaneous recipe from British cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/vxuyrx1511302687.jpg",
+    "instructions": "In a large casserole, fry the sausages until brown all over – about 10 mins.\r\n\r\nAdd the tomato sauce, stirring well, then stir in the beans, treacle or sugar and mustard. Bring to the simmer, cover and cook for 30 mins. Great served with crusty bread or rice.",
+    "cuisine": "British",
+    "category": "Miscellaneous",
+    "mealType": "Dinner",
+    "diet": "Vegetarian",
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "name": "Sausages",
+        "quantity": "8 large"
+      },
+      {
+        "name": "Tomato Sauce",
+        "quantity": "1 Jar"
+      },
+      {
+        "name": "Butter Beans",
+        "quantity": "1200g"
+      },
+      {
+        "name": "Black Treacle",
+        "quantity": "1 tbls"
+      },
+      {
+        "name": "English Mustard",
+        "quantity": "1 tsp"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=B0YX0yPX4Wo",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 25,
+    "calories": 550
+  },
+  {
+    "externalId": "53438",
+    "title": "Bolita di Keshi",
+    "description": "Bolita di Keshi - a miscellaneous recipe from international cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/skzd0x1780091674.jpg",
+    "instructions": "Grate finely and toss together.\r\n1 lb. sharp yellow cheese (cheddar or oude boerenkaas)\r\n1 lb. keshi di buriko (or any white cheese such as fromage blanc, queso blanco, ricotto, feta etc.)\r\n\r\nStir in:\r\n6 eggs, beaten\r\n5 Tbs. Cornstarch\r\n\r\nShape the mixture into small balls. These may be kept indefinitely in the freezer. Drop the balls into deep, hot fat and fry until golden. Serve piping hot on toothpicks.",
+    "cuisine": "International",
+    "category": "Miscellaneous",
+    "mealType": "Dinner",
+    "diet": "Vegetarian",
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "name": "Cheddar Cheese",
+        "quantity": "1 lb"
+      },
+      {
+        "name": "Feta",
+        "quantity": "1 lb"
+      },
+      {
+        "name": "Eggs",
+        "quantity": "1 beaten"
+      },
+      {
+        "name": "Cornstarch",
+        "quantity": "5 tablespoons"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=WovQkxxrUeE",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 25,
+    "calories": 550
+  },
+  {
+    "externalId": "52939",
+    "title": "Callaloo Jamaican Style",
+    "description": "Callaloo Jamaican Style - a miscellaneous recipe from Jamaican cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/ussyxw1515364536.jpg",
+    "instructions": "Cut leaves and soft stems from the kale branches, them soak in a bowl of cold water for about 5-10 minutes or until finish with prep.\r\nProceed to slicing the onions, mincing the garlic and dicing the tomatoes. Set aside\r\nRemove kale from water cut in chunks.\r\nPlace bacon on saucepan and cook until crispy. Then add onions, garlic, thyme, stir for about a minute or more\r\nAdd tomatoes; scotch bonnet pepper, smoked paprika. Sauté for about 2-3 more minutes.\r\nFinally add vegetable, salt, mix well, and steamed for about 6-8 minutes or until leaves are tender. Add a tiny bit of water as needed. Adjust seasonings and turn off the heat.\r\nUsing a sharp knife cut both ends off the plantain. This will make it easy to grab the skin of the plantains. Slit a shallow line down the long seam of the plantain; peel only as deep as the peel. Remove plantain peel by pulling it back.\r\nSlice the plantain into medium size lengthwise slices and set aside.\r\nCoat a large frying pan with cooking oil spray. Spray the tops of the plantains with a generous layer of oil spray and sprinkle with salt, freshly ground pepper.\r\nLet the plantains \"fry\" on medium heat, shaking the frying pan to redistribute them every few minutes.\r\nAs the plantains brown, continue to add more cooking oil spray, salt and pepper (if needed) until they have reached the desired color and texture.\r\nRemove and serve with kale",
+    "cuisine": "Jamaican",
+    "category": "Miscellaneous",
+    "mealType": "Dinner",
+    "diet": "Vegetarian",
+    "difficulty": "Medium",
+    "ingredients": [
+      {
+        "name": "Kale",
+        "quantity": "1  bunch"
+      },
+      {
+        "name": "Bacon",
+        "quantity": "2 strips"
+      },
+      {
+        "name": "Garlic",
+        "quantity": "3 cloves Chopped"
+      },
+      {
+        "name": "Onion",
+        "quantity": "1 medium"
+      },
+      {
+        "name": "Paprika",
+        "quantity": "1/2 tsp"
+      },
+      {
+        "name": "Thyme",
+        "quantity": "1 Sprig"
+      },
+      {
+        "name": "Tomato",
+        "quantity": "1"
+      },
+      {
+        "name": "Red Pepper",
+        "quantity": "1"
+      },
+      {
+        "name": "Banana",
+        "quantity": "4"
+      },
+      {
+        "name": "Vegetable Oil",
+        "quantity": "Splash"
+      }
+    ],
+    "tags": [
+      "Savory"
+    ],
+    "youtubeUrl": "https://www.youtube.com/watch?v=bCr3GasJWwE",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 45,
+    "calories": 550
+  },
+  {
+    "externalId": "52969",
+    "title": "Chakchouka ",
+    "description": "Chakchouka  - a miscellaneous recipe from Tunisian cuisine.",
+    "imageUrl": "https://www.themealdb.com/images/media/meals/gpz67p1560458984.jpg",
+    "instructions": "In a large cast iron skillet or sauté pan with a lid, heat oil over medium high heat. Add the onion and sauté for 2-3 minutes, until softened. Add the peppers and garlic, and sauté for an additional 3-5 minutes. Add the tomatoes, cumin, paprika, salt, and chili powder. Mix well and bring the mixture to a simmer. Reduce the heat to medium low and continue to simmer, uncovered, 10-15 minutes until the mixture has thickened to your desired consistency. (Taste the sauce at this point and adjust for salt and spice, as desired.) Using the back of a spoon, make four craters in the mixture, large enough to hold an egg. Crack one egg into each of the craters. Cover the skillet and simmer for 5-7 minutes, until the eggs have set. Serve immediately with crusty bread or pita.",
+    "cuisine": "Tunisian",
+    "category": "Miscellaneous",
+    "mealType": "Dinner",
+    "diet": "Vegetarian",
+    "difficulty": "Medium",
+    "ingredients": [
+      {
+        "name": "Tomatoes",
+        "quantity": "4"
+      },
+      {
+        "name": "Olive Oil",
+        "quantity": "2 tbs"
+      },
+      {
+        "name": "Onion",
+        "quantity": "1 Diced"
+      },
+      {
+        "name": "Red Pepper",
+        "quantity": "1 sliced"
+      },
+      {
+        "name": "Green Pepper",
+        "quantity": "1 sliced"
+      },
+      {
+        "name": "Garlic",
+        "quantity": "3 Cloves Crushed"
+      },
+      {
+        "name": "Cumin",
+        "quantity": "1 tsp"
+      },
+      {
+        "name": "Paprika",
+        "quantity": "1 tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": "3/4 teaspoon"
+      },
+      {
+        "name": "Chili Powder",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "name": "Eggs",
+        "quantity": "4"
+      }
+    ],
+    "tags": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=EHKNu93MSx4",
+    "source": "TheMealDB",
+    "isAiGenerated": false,
+    "cookTimeMinutes": 45,
+    "calories": 550
+  }
+]

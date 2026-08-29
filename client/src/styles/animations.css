@@ -1,0 +1,108 @@
+/* Ambient auth atmosphere gradient drift */
+.auth__atmosphere {
+  background-size: 120% 120%;
+  animation: auth-gradient-drift 18s ease-in-out infinite alternate;
+}
+
+@keyframes auth-gradient-drift {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+/* Coming soon badge pulse */
+.badge--soon {
+  animation: badge-pulse 2.8s ease-in-out infinite;
+}
+
+@keyframes badge-pulse {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.88;
+    transform: scale(1.03);
+  }
+}
+
+/* Screen loader dots */
+.screen-loader__dots {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.screen-loader__dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-terracotta);
+  animation: loader-dot-bounce 1.2s ease-in-out infinite;
+}
+
+.screen-loader__dot:nth-child(2) {
+  animation-delay: 0.15s;
+}
+
+.screen-loader__dot:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+@keyframes loader-dot-bounce {
+  0%,
+  80%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.45;
+  }
+  40% {
+    transform: translateY(-6px);
+    opacity: 1;
+  }
+}
+
+/* Floating veg scene positioning */
+.veg-scene {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.veg-scene__sprite {
+  position: absolute;
+}
+
+/* Nav active pill */
+.app-nav__link {
+  position: relative;
+}
+
+.app-nav__pill {
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius-pill);
+  background: rgba(196, 92, 38, 0.1);
+  z-index: -1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .veg-scene {
+    display: none;
+  }
+}

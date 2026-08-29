@@ -1,23 +1,49 @@
+import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
+import { getRecipes } from '../api/recipes'
 import { useAuth } from '../auth/AuthContext'
+import type { RecipeSummary } from '../api/types'
 import { FeatureCard } from '../components/FeatureCard'
+import { PageIntro, PageIntroTitle } from '../components/motion/PageIntro'
+import { StaggerGrid } from '../components/motion/StaggerGrid'
 import { RecipeCard } from '../components/RecipeCard'
 import { dashboard } from '../content/siteCopy'
-import { placeholderRecipes } from '../data/placeholderRecipes'
 import { greetingForNow } from '../lib/format'
 
 export function DashboardPage() {
   const { profile } = useAuth()
   const firstName = profile?.displayName.trim().split(/\s+/)[0] ?? 'there'
+  const [recipes, setRecipes] = useState<RecipeSummary[]>([])
+
+  useEffect(() => {
+    let cancelled = false
+
+    void getRecipes()
+      .then((response) => {
+        if (!cancelled) {
+          setRecipes(response.items.slice(0, 6))
+        }
+      })
+      .catch(() => {
+        if (!cancelled) {
+          setRecipes([])
+        }
+      })
+
+    return () => {
+      cancelled = true
+    }
+  }, [])
 
   return (
     <main className="page">
-      <header className="page__intro">
-        <p className="page__eyebrow">{greetingForNow()}</p>
-        <h1 className="page__title">{firstName}</h1>
-        <p className="page__lede">{dashboard.lede}</p>
-      </header>
+      <PageIntro
+        eyebrow={greetingForNow()}
+        title={<PageIntroTitle>{firstName}</PageIntroTitle>}
+        lede={dashboard.lede}
+      />
 
-      <section className="feature-grid" aria-label="Kitchen shortcuts">
+      <StaggerGrid className="feature-grid" aria-label="Kitchen shortcuts">
         {dashboard.quickActions.map((action) => (
           <FeatureCard
             key={action.to}
@@ -26,16 +52,23 @@ export function DashboardPage() {
             to={action.to}
           />
         ))}
-      </section>
+      </StaggerGrid>
 
-      <section className="recipe-grid-section" aria-label={dashboard.recipesHeading}>
-        <h2 className="section-heading">{dashboard.recipesHeading}</h2>
-        <div className="recipe-grid">
-          {placeholderRecipes.map((recipe) => (
-            <RecipeCard key={recipe.id} recipe={recipe} />
-          ))}
-        </div>
-      </section>
+      {recipes.length > 0 ? (
+        <section className="recipe-grid-section" aria-label={dashboard.recipesHeading}>
+          <div className="section-heading-row">
+            <h2 className="section-heading">{dashboard.recipesHeading}</h2>
+            <Link to="/recipes" className="section-heading-link">
+              View all
+            </Link>
+          </div>
+          <StaggerGrid className="recipe-grid">
+            {recipes.map((recipe) => (
+              <RecipeCard key={recipe.id} recipe={recipe} />
+            ))}
+          </StaggerGrid>
+        </section>
+      ) : null}
     </main>
   )
 }

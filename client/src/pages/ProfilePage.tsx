@@ -1,11 +1,17 @@
+import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { useAuth } from '../auth/AuthContext'
 import { ProfileForm } from '../components/ProfileForm'
+import { PageIntro, PageIntroTitle } from '../components/motion/PageIntro'
 import { ScreenLoader } from '../components/ScreenLoader'
 import { profilePage } from '../content/siteCopy'
+import { useMotionVariants } from '../hooks/useReducedMotion'
+import { fadeUp } from '../motion/variants'
+import { pageTransition } from '../motion/transitions'
 
 export function ProfilePage() {
   const { profile, refreshProfile } = useAuth()
+  const panelVariants = useMotionVariants(fadeUp)
 
   if (!profile) {
     return <ScreenLoader />
@@ -13,17 +19,21 @@ export function ProfilePage() {
 
   return (
     <main className="page page--narrow">
-      <header className="page__intro">
-        <p className="page__eyebrow">
-          <Link to="/dashboard">{profilePage.backLabel}</Link>
-        </p>
-        <h1 className="page__title">{profilePage.title}</h1>
-        <p className="page__lede">{profilePage.lede}</p>
-      </header>
+      <PageIntro
+        eyebrow={<Link to="/dashboard">{profilePage.backLabel}</Link>}
+        title={<PageIntroTitle>{profilePage.title}</PageIntroTitle>}
+        lede={profilePage.lede}
+      />
 
-      <div className="panel">
+      <motion.div
+        className="panel"
+        variants={panelVariants}
+        initial="hidden"
+        animate="visible"
+        transition={pageTransition}
+      >
         <ProfileForm profile={profile} onSaved={() => refreshProfile()} />
-      </div>
+      </motion.div>
     </main>
   )
 }

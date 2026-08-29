@@ -1,13 +1,18 @@
+import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useAuth } from '../auth/AuthContext'
 import { userMenu } from '../content/siteCopy'
+import { useMotionVariants } from '../hooks/useReducedMotion'
+import { slidePanel } from '../motion/variants'
+import { modalDialogTransition } from '../motion/transitions'
 import { formatDietary, initialsFromName } from '../lib/format'
 
 export function UserMenu() {
   const { profile, logout } = useAuth()
   const [open, setOpen] = useState(false)
   const rootRef = useRef<HTMLDivElement>(null)
+  const panelVariants = useMotionVariants(slidePanel)
 
   useEffect(() => {
     if (!open) {
@@ -56,73 +61,85 @@ export function UserMenu() {
         {initialsFromName(name)}
       </button>
 
-      {open ? (
-        <div className="user-menu__panel" role="dialog" aria-label="Your details">
-          <p className="user-menu__name">{name}</p>
-          <p className="user-menu__email">{profile?.email}</p>
-          {profile?.phoneNumber ? (
-            <p className="user-menu__meta">{profile.phoneNumber}</p>
-          ) : null}
+      <AnimatePresence>
+        {open ? (
+          <motion.div
+            className="user-menu__panel"
+            role="dialog"
+            aria-label="Your details"
+            variants={panelVariants}
+            initial="hidden"
+            animate="visible"
+            exit="exit"
+            transition={modalDialogTransition}
+            style={{ transformOrigin: 'top right' }}
+          >
+            <p className="user-menu__name">{name}</p>
+            <p className="user-menu__email">{profile?.email}</p>
+            {profile?.phoneNumber ? (
+              <p className="user-menu__meta">{profile.phoneNumber}</p>
+            ) : null}
 
-          <div className="user-menu__divider" />
+            <div className="user-menu__divider" />
 
-          {hasPrefs ? (
-            <dl className="user-menu__facts">
-              <div>
-                <dt>Diet</dt>
-                <dd>{formatDietary(profile?.dietaryPreference ?? null)}</dd>
-              </div>
-              <div>
-                <dt>Skill</dt>
-                <dd>{profile?.cookingSkill ?? 'Not set'}</dd>
-              </div>
-              <div>
-                <dt>Household</dt>
-                <dd>
-                  {profile?.householdSize
-                    ? `${profile.householdSize} ${profile.householdSize === 1 ? 'person' : 'people'}`
-                    : 'Not set'}
-                </dd>
-              </div>
-            </dl>
-          ) : (
-            <p className="user-menu__empty">{userMenu.empty}</p>
-          )}
+            {hasPrefs ? (
+              <dl className="user-menu__facts">
+                <div>
+                  <dt>Diet</dt>
+                  <dd>{formatDietary(profile?.dietaryPreference ?? null)}</dd>
+                </div>
+                <div>
+                  <dt>Skill</dt>
+                  <dd>{profile?.cookingSkill ?? 'Not set'}</dd>
+                </div>
+                <div>
+                  <dt>Household</dt>
+                  <dd>
+                    {profile?.householdSize
+                      ? `${profile.householdSize} ${profile.householdSize === 1 ? 'person' : 'people'}`
+                      : 'Not set'}
+                  </dd>
+                </div>
+              </dl>
+            ) : (
+              <p className="user-menu__empty">{userMenu.empty}</p>
+            )}
 
-          {profile && profile.allergies.length > 0 ? (
-            <div className="user-menu__chips">
-              {profile.allergies.map((item) => (
-                <span key={item} className="chip chip--muted">
-                  {item}
-                </span>
-              ))}
+            {profile && profile.allergies.length > 0 ? (
+              <div className="user-menu__chips">
+                {profile.allergies.map((item) => (
+                  <span key={item} className="chip chip--muted">
+                    {item}
+                  </span>
+                ))}
+              </div>
+            ) : null}
+
+            {profile && profile.cuisines.length > 0 ? (
+              <div className="user-menu__chips">
+                {profile.cuisines.map((item) => (
+                  <span key={item} className="chip">
+                    {item}
+                  </span>
+                ))}
+              </div>
+            ) : null}
+
+            <div className="user-menu__actions">
+              <Link
+                to="/profile"
+                className="btn btn--ghost"
+                onClick={() => setOpen(false)}
+              >
+                {userMenu.edit}
+              </Link>
+              <button type="button" className="btn btn--text" onClick={logout}>
+                Sign out
+              </button>
             </div>
-          ) : null}
-
-          {profile && profile.cuisines.length > 0 ? (
-            <div className="user-menu__chips">
-              {profile.cuisines.map((item) => (
-                <span key={item} className="chip">
-                  {item}
-                </span>
-              ))}
-            </div>
-          ) : null}
-
-          <div className="user-menu__actions">
-            <Link
-              to="/profile"
-              className="btn btn--ghost"
-              onClick={() => setOpen(false)}
-            >
-              {userMenu.edit}
-            </Link>
-            <button type="button" className="btn btn--text" onClick={logout}>
-              Sign out
-            </button>
-          </div>
-        </div>
-      ) : null}
+          </motion.div>
+        ) : null}
+      </AnimatePresence>
     </div>
   )
 }

@@ -96,3 +96,66 @@ export type PantryItemPayload = {
   categoryName: string
   expiryDate?: string | null
 }
+
+export type MealType = 'Breakfast' | 'Lunch' | 'Dinner' | 'Dessert'
+
+export type RecipeDiet = 'Vegetarian' | 'NonVegetarian'
+
+export type RecipeDifficulty = 'Easy' | 'Medium' | 'Hard'
+
+export type RecipeSummary = {
+  id: number
+  title: string
+  description: string
+  imageUrl: string
+  cuisineName: string
+  categoryName: string
+  mealType: MealType
+  diet: RecipeDiet
+  difficulty: RecipeDifficulty
+  cookTimeMinutes: number
+  calories: number
+  ingredientCount: number
+  tags: string[]
+}
+
+export type RecipeIngredient = {
+  name: string
+  quantity: string
+}
+
+export type RecipeDetail = {
+  id: number
+  externalId: string
+  title: string
+  description: string
+  instructions: string
+  imageUrl: string
+  cuisineName: string
+  categoryName: string
+  mealType: MealType
+  diet: RecipeDiet
+  difficulty: RecipeDifficulty
+  cookTimeMinutes: number
+  calories: number
+  youtubeUrl: string | null
+  source: string
+  isAiGenerated: boolean
+  ingredients: RecipeIngredient[]
+  tags: string[]
+}
+
+export type RecipeListResponse = {
+  items: RecipeSummary[]
+}
+
+export type RecipeFiltersResponse = {
+  cuisines: string[]
+}
+
+export type RecipeQuery = {
+  search?: string
+  cuisine?: string
+  diet?: RecipeDiet
+  difficulty?: RecipeDifficulty
+}

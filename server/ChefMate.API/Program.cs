@@ -1,6 +1,7 @@
 using ChefMate.API.Configuration;
 using ChefMate.API.Data;
 using ChefMate.API.Models;
+using ChefMate.API.SeedData;
 using ChefMate.API.Services;
 using FluentValidation;
 using FluentValidation.AspNetCore;
@@ -89,10 +90,20 @@ builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IProfileService, ProfileService>();
 builder.Services.AddScoped<IPantryService, PantryService>();
+builder.Services.AddScoped<IRecipeService, RecipeService>();
 
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    var logger = scope.ServiceProvider.GetRequiredService<ILoggerFactory>().CreateLogger("RecipeSeeder");
+
+    await dbContext.Database.MigrateAsync();
+    await RecipeSeeder.SeedAsync(dbContext, app.Environment, logger);
+}
 
 if (app.Environment.IsDevelopment())
 {

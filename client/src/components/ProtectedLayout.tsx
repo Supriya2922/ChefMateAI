@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react'
-import { Navigate, Outlet } from 'react-router-dom'
+import { Navigate } from 'react-router-dom'
 import { useAuth } from '../auth/AuthContext'
+import { AnimatedOutlet } from './motion/AnimatedOutlet'
 import { AppHeader } from './AppHeader'
 import { ScreenLoader } from './ScreenLoader'
 
@@ -18,7 +19,7 @@ export function ProtectedLayout() {
   return (
     <div className="app-shell">
       <AppHeader />
-      <Outlet />
+      <AnimatedOutlet />
     </div>
   )
 }

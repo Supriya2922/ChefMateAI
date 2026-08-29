@@ -7,6 +7,7 @@ import { ExplorePage } from './pages/ExplorePage'
 import { LoginPage } from './pages/LoginPage'
 import { PantryPage } from './pages/PantryPage'
 import { ProfilePage } from './pages/ProfilePage'
+import { RecipeDetailPage } from './pages/RecipeDetailPage'
 import { RecipesPage } from './pages/RecipesPage'
 import { RegisterPage } from './pages/RegisterPage'
 
@@ -32,6 +33,7 @@ export default function App() {
       <Route element={<ProtectedLayout />}>
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/recipes" element={<RecipesPage />} />
+        <Route path="/recipes/:id" element={<RecipeDetailPage />} />
         <Route path="/pantry" element={<PantryPage />} />
         <Route path="/ai" element={<AiPage />} />
         <Route path="/cookbook" element={<CookbookPage />} />
