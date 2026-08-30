@@ -12,10 +12,12 @@ namespace ChefMate.API.Controllers;
 public class PantryController : ControllerBase
 {
     private readonly IPantryService _pantryService;
+    private readonly IPantryScanService _pantryScanService;
 
-    public PantryController(IPantryService pantryService)
+    public PantryController(IPantryService pantryService, IPantryScanService pantryScanService)
     {
         _pantryService = pantryService;
+        _pantryScanService = pantryScanService;
     }
 
     [HttpGet]
@@ -130,6 +132,78 @@ public class PantryController : ControllerBase
         }
 
         return NoContent();
+    }
+
+    [HttpPost("scans")]
+    [RequestSizeLimit(10 * 1024 * 1024)]
+    public async Task<ActionResult<PantryScanResponse>> Scan(
+        IFormFile? image,
+        CancellationToken cancellationToken)
+    {
+        var userId = GetUserId();
+        if (userId is null)
+        {
+            return Unauthorized();
+        }
+
+        if (image is null || image.Length == 0)
+        {
+            return BadRequest(new { errors = new[] { "Please upload an image file." } });
+        }
+
+        await using var stream = image.OpenReadStream();
+        var contentType = string.IsNullOrWhiteSpace(image.ContentType)
+            ? "application/octet-stream"
+            : image.ContentType;
+
+        var result = await _pantryScanService.ScanAsync(userId, stream, contentType, cancellationToken);
+        return ToScanActionResult(result);
+    }
+
+    [HttpPost("scans/{scanId:int}/confirm")]
+    public async Task<ActionResult<ConfirmPantryScanResponse>> ConfirmScan(
+        int scanId,
+        [FromBody] ConfirmPantryScanRequest request,
+        CancellationToken cancellationToken)
+    {
+        var userId = GetUserId();
+        if (userId is null)
+        {
+            return Unauthorized();
+        }
+
+        var result = await _pantryScanService.ConfirmAsync(userId, scanId, request, cancellationToken);
+        return ToConfirmActionResult(result);
+    }
+
+    private ActionResult<PantryScanResponse> ToScanActionResult(PantryScanOperationResult result)
+    {
+        if (result.Invalid)
+        {
+            return BadRequest(new { errors = new[] { result.Error ?? "Could not scan this image." } });
+        }
+
+        return Ok(result.Scan);
+    }
+
+    private ActionResult<ConfirmPantryScanResponse> ToConfirmActionResult(PantryScanOperationResult result)
+    {
+        if (result.NotFound)
+        {
+            return NotFound(new { errors = new[] { result.Error ?? "Scan not found." } });
+        }
+
+        if (result.Forbidden)
+        {
+            return Forbid();
+        }
+
+        if (result.Invalid)
+        {
+            return BadRequest(new { errors = new[] { result.Error ?? "Could not confirm scan results." } });
+        }
+
+        return Ok(result.Confirm);
     }
 
     private ActionResult<PantryItemResponse> ToActionResult(PantryMutationResult result)

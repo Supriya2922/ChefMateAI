@@ -13,6 +13,8 @@ public class PantryItemResponse
 {
     public int Id { get; set; }
 
+    public int? IngredientId { get; set; }
+
     public required string Name { get; set; }
 
     public decimal Quantity { get; set; }
@@ -26,6 +28,8 @@ public class PantryItemResponse
     public required ExpiryStatus ExpiryStatus { get; set; }
 
     public int? DaysUntilExpiry { get; set; }
+
+    public required PantryItemSource Source { get; set; }
 
     public DateTimeOffset CreatedAt { get; set; }
 

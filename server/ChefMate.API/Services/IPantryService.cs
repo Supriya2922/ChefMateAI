@@ -1,4 +1,6 @@
 using ChefMate.API.DTOs.Pantry;
+using ChefMate.API.Models;
+using ChefMate.API.Models.Enums;
 
 namespace ChefMate.API.Services;
 
@@ -36,4 +38,11 @@ public interface IPantryService
         CancellationToken cancellationToken);
 
     Task<bool> DeleteItemAsync(string userId, int id, CancellationToken cancellationToken);
+
+    Task<PantryItemResponse> UpsertFromScanAsync(
+        string userId,
+        Ingredient ingredient,
+        decimal quantity,
+        PantryUnit unit,
+        CancellationToken cancellationToken);
 }

@@ -72,9 +72,21 @@ builder.Services.AddAuthorization();
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("Client", policy =>
+    {
+        if (builder.Environment.IsDevelopment())
+        {
+            policy.SetIsOriginAllowed(origin =>
+                    Uri.TryCreate(origin, UriKind.Absolute, out var uri) &&
+                    string.Equals(uri.Host, "localhost", StringComparison.OrdinalIgnoreCase))
+                .AllowAnyHeader()
+                .AllowAnyMethod();
+            return;
+        }
+
         policy.WithOrigins("http://localhost:5173")
             .AllowAnyHeader()
-            .AllowAnyMethod());
+            .AllowAnyMethod();
+    });
 });
 
 builder.Services.AddControllers()
@@ -90,6 +102,10 @@ builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IProfileService, ProfileService>();
 builder.Services.AddScoped<IPantryService, PantryService>();
+builder.Services.AddScoped<IPantryScanService, PantryScanService>();
+builder.Services.AddScoped<IIngredientNormalizationService, IngredientNormalizationService>();
+builder.Services.Configure<GeminiOptions>(builder.Configuration.GetSection(GeminiOptions.SectionName));
+builder.Services.AddHttpClient<IVisionAIService, GeminiVisionAIService>();
 builder.Services.AddScoped<IRecipeService, RecipeService>();
 
 builder.Services.AddOpenApi();

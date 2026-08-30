@@ -120,6 +120,7 @@ public class PantryService : IPantryService
             CategoryId = category.Id,
             Category = category,
             ExpiryDate = request.ExpiryDate,
+            Source = PantryItemSource.Manual,
             CreatedAt = now,
             UpdatedAt = now
         };
@@ -201,6 +202,69 @@ public class PantryService : IPantryService
         _dbContext.PantryItems.Remove(item);
         await _dbContext.SaveChangesAsync(cancellationToken);
         return true;
+    }
+
+    public async Task<PantryItemResponse> UpsertFromScanAsync(
+        string userId,
+        Ingredient ingredient,
+        decimal quantity,
+        PantryUnit unit,
+        CancellationToken cancellationToken)
+    {
+        await EnsureDefaultCategoriesAsync(userId, cancellationToken);
+
+        var existing = await _dbContext.PantryItems
+            .Include(item => item.Category)
+            .FirstOrDefaultAsync(
+                item => item.UserId == userId &&
+                        (item.IngredientId == ingredient.Id ||
+                         item.NormalizedName == ingredient.NormalizedName),
+                cancellationToken);
+
+        var now = DateTimeOffset.UtcNow;
+
+        if (existing is not null)
+        {
+            if (existing.Unit == unit)
+            {
+                existing.Quantity += quantity;
+            }
+            else
+            {
+                existing.Quantity = quantity;
+                existing.Unit = unit;
+            }
+
+            existing.IngredientId ??= ingredient.Id;
+            existing.Name = ingredient.Name;
+            existing.Source = PantryItemSource.PantryScan;
+            existing.UpdatedAt = now;
+
+            await _dbContext.SaveChangesAsync(cancellationToken);
+            return MapItem(existing, TodayUtc());
+        }
+
+        var categoryName = string.IsNullOrWhiteSpace(ingredient.Category) ? "Other" : ingredient.Category;
+        var category = await GetOrCreateCategoryAsync(userId, categoryName, cancellationToken);
+
+        var item = new PantryItem
+        {
+            UserId = userId,
+            Name = ingredient.Name,
+            IngredientId = ingredient.Id,
+            Quantity = quantity,
+            Unit = unit,
+            CategoryId = category.Id,
+            Category = category,
+            Source = PantryItemSource.PantryScan,
+            CreatedAt = now,
+            UpdatedAt = now
+        };
+
+        _dbContext.PantryItems.Add(item);
+        await _dbContext.SaveChangesAsync(cancellationToken);
+
+        return MapItem(item, TodayUtc());
     }
 
     private async Task EnsureDefaultCategoriesAsync(string userId, CancellationToken cancellationToken)
@@ -362,6 +426,7 @@ public class PantryService : IPantryService
         return new PantryItemResponse
         {
             Id = item.Id,
+            IngredientId = item.IngredientId,
             Name = item.Name,
             Quantity = item.Quantity,
             Unit = item.Unit,
@@ -373,6 +438,7 @@ public class PantryService : IPantryService
             ExpiryDate = item.ExpiryDate,
             ExpiryStatus = status,
             DaysUntilExpiry = daysUntilExpiry,
+            Source = item.Source,
             CreatedAt = item.CreatedAt,
             UpdatedAt = item.UpdatedAt
         };

@@ -1,10 +1,13 @@
-import { apiFetch } from './http'
+import { apiFetch, apiFetchForm } from './http'
 import type {
+  ConfirmPantryScanPayload,
+  ConfirmPantryScanResponse,
   PantryCategory,
   PantryItem,
   PantryItemPayload,
   PantryListResponse,
   PantryQuery,
+  PantryScanResponse,
 } from './types'
 
 function pantryQueryString(params?: PantryQuery): string {
@@ -67,5 +70,21 @@ export function updatePantryQuantity(id: number, quantity: number): Promise<Pant
 export function deletePantryItem(id: number): Promise<void> {
   return apiFetch<void>(`/api/pantry/${id}`, {
     method: 'DELETE',
+  })
+}
+
+export function scanPantry(image: File): Promise<PantryScanResponse> {
+  const formData = new FormData()
+  formData.append('image', image)
+  return apiFetchForm<PantryScanResponse>('/api/pantry/scans', formData)
+}
+
+export function confirmPantryScan(
+  scanId: number,
+  payload: ConfirmPantryScanPayload,
+): Promise<ConfirmPantryScanResponse> {
+  return apiFetch<ConfirmPantryScanResponse>(`/api/pantry/scans/${scanId}/confirm`, {
+    method: 'POST',
+    body: JSON.stringify(payload),
   })
 }

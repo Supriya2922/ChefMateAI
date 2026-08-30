@@ -15,4 +15,6 @@ public class ApplicationUser : IdentityUser
     public ICollection<PantryItem> PantryItems { get; set; } = new List<PantryItem>();
 
     public ICollection<PantryCategory> PantryCategories { get; set; } = new List<PantryCategory>();
+
+    public ICollection<PantryScan> PantryScans { get; set; } = new List<PantryScan>();
 }

@@ -74,7 +74,13 @@ public static class RecipeSeeder
                     continue;
                 }
 
-                var ingredient = new Ingredient { Name = ingredientName };
+                var now = DateTimeOffset.UtcNow;
+                var ingredient = new Ingredient
+                {
+                    Name = ingredientName,
+                    CreatedAt = now,
+                    UpdatedAt = now
+                };
                 context.Ingredients.Add(ingredient);
                 ingredientLookup[ingredientName] = ingredient;
             }

@@ -1,5 +1,6 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import { useCallback, useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import {
   deletePantryItem,
   getPantryCategories,
@@ -160,13 +161,18 @@ export function PantryPage() {
             onCategoryChange={setCategoryId}
             onExpiryChange={setExpiryStatus}
           />
-          <button
-            type="button"
-            className="btn btn--primary btn--inline pantry-panel__add"
-            onClick={() => setEditor('new')}
-          >
-            {pantryPage.add}
-          </button>
+          <div className="pantry-panel__actions">
+            <button
+              type="button"
+              className="btn btn--primary btn--inline pantry-panel__add"
+              onClick={() => setEditor('new')}
+            >
+              {pantryPage.add}
+            </button>
+            <Link className="btn btn--ghost btn--inline pantry-panel__scan" to="/pantry/scan">
+              {pantryPage.scan}
+            </Link>
+          </div>
         </div>
 
         <PantrySummaryBar summary={summary} />

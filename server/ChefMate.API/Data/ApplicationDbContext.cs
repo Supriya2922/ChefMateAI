@@ -25,6 +25,10 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
 
     public DbSet<PantryItem> PantryItems => Set<PantryItem>();
 
+    public DbSet<PantryScan> PantryScans => Set<PantryScan>();
+
+    public DbSet<PantryScanItem> PantryScanItems => Set<PantryScanItem>();
+
     public DbSet<Recipe> Recipes => Set<Recipe>();
 
     public DbSet<Ingredient> Ingredients => Set<Ingredient>();
@@ -178,13 +182,25 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
                 .HasMaxLength(32)
                 .IsRequired();
 
+            entity.Property(p => p.Source)
+                .HasConversion<string>()
+                .HasMaxLength(32)
+                .IsRequired();
+
             entity.HasIndex(p => new { p.UserId, p.NormalizedName })
                 .IsUnique();
+
+            entity.HasIndex(p => new { p.UserId, p.IngredientId });
 
             entity.HasOne(p => p.User)
                 .WithMany(u => u.PantryItems)
                 .HasForeignKey(p => p.UserId)
                 .OnDelete(DeleteBehavior.Cascade);
+
+            entity.HasOne(p => p.Ingredient)
+                .WithMany(i => i.PantryItems)
+                .HasForeignKey(p => p.IngredientId)
+                .OnDelete(DeleteBehavior.SetNull);
 
             entity.HasOne(p => p.Category)
                 .WithMany(c => c.Items)
@@ -254,8 +270,60 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
                 .HasMaxLength(100)
                 .HasComputedColumnSql("lower(\"Name\")", stored: true);
 
+            entity.Property(i => i.Category)
+                .HasMaxLength(100);
+
+            entity.Property(i => i.ImageUrl)
+                .HasMaxLength(500);
+
             entity.HasIndex(i => i.NormalizedName)
                 .IsUnique();
+        });
+
+        builder.Entity<PantryScan>(entity =>
+        {
+            entity.Property(s => s.ImageUrl)
+                .HasMaxLength(500);
+
+            entity.Property(s => s.Status)
+                .HasConversion<string>()
+                .HasMaxLength(32)
+                .IsRequired();
+
+            entity.HasIndex(s => s.UserId);
+
+            entity.HasOne(s => s.User)
+                .WithMany(u => u.PantryScans)
+                .HasForeignKey(s => s.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+        });
+
+        builder.Entity<PantryScanItem>(entity =>
+        {
+            entity.Property(i => i.DetectedName)
+                .HasMaxLength(100)
+                .IsRequired();
+
+            entity.Property(i => i.DetectedUnit)
+                .HasMaxLength(32);
+
+            entity.Property(i => i.DetectedQuantity)
+                .HasPrecision(10, 2);
+
+            entity.Property(i => i.Confidence)
+                .HasPrecision(5, 4);
+
+            entity.HasIndex(i => i.PantryScanId);
+
+            entity.HasOne(i => i.PantryScan)
+                .WithMany(s => s.Items)
+                .HasForeignKey(i => i.PantryScanId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            entity.HasOne(i => i.Ingredient)
+                .WithMany(ing => ing.PantryScanItems)
+                .HasForeignKey(i => i.IngredientId)
+                .OnDelete(DeleteBehavior.SetNull);
         });
 
         builder.Entity<RecipeIngredient>(entity =>
@@ -305,5 +373,66 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
                 .HasForeignKey(rt => rt.TagId)
                 .OnDelete(DeleteBehavior.Restrict);
         });
+    }
+
+    public override int SaveChanges()
+    {
+        StampNormalizedNamesForInMemoryProvider();
+        return base.SaveChanges();
+    }
+
+    public override int SaveChanges(bool acceptAllChangesOnSuccess)
+    {
+        StampNormalizedNamesForInMemoryProvider();
+        return base.SaveChanges(acceptAllChangesOnSuccess);
+    }
+
+    public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+    {
+        StampNormalizedNamesForInMemoryProvider();
+        return base.SaveChangesAsync(cancellationToken);
+    }
+
+    public override Task<int> SaveChangesAsync(
+        bool acceptAllChangesOnSuccess,
+        CancellationToken cancellationToken = default)
+    {
+        StampNormalizedNamesForInMemoryProvider();
+        return base.SaveChangesAsync(acceptAllChangesOnSuccess, cancellationToken);
+    }
+
+    private void StampNormalizedNamesForInMemoryProvider()
+    {
+        if (!Database.ProviderName?.Contains("InMemory", StringComparison.Ordinal) ?? true)
+        {
+            return;
+        }
+
+        foreach (var entry in ChangeTracker.Entries<Ingredient>())
+        {
+            if (entry.State is EntityState.Added or EntityState.Modified)
+            {
+                entry.Property(nameof(Ingredient.NormalizedName)).CurrentValue =
+                    entry.Entity.Name.ToLowerInvariant();
+            }
+        }
+
+        foreach (var entry in ChangeTracker.Entries<PantryItem>())
+        {
+            if (entry.State is EntityState.Added or EntityState.Modified)
+            {
+                entry.Property(nameof(PantryItem.NormalizedName)).CurrentValue =
+                    entry.Entity.Name.ToLowerInvariant();
+            }
+        }
+
+        foreach (var entry in ChangeTracker.Entries<PantryCategory>())
+        {
+            if (entry.State is EntityState.Added or EntityState.Modified)
+            {
+                entry.Property(nameof(PantryCategory.NormalizedName)).CurrentValue =
+                    entry.Entity.Name.ToLowerInvariant();
+            }
+        }
     }
 }

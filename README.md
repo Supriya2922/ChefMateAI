@@ -32,6 +32,7 @@ Database password and JWT signing key are **not** stored in `appsettings.json`. 
 
 - `ConnectionStrings__DefaultConnection` — Neon connection string (includes the password)
 - `Jwt__Key` — at least 32 characters
+- `Gemini__ApiKey` — Google Gemini API key for pantry image scanning
 
 `.env` is gitignored. You can also set the same names as real environment variables; those win over `.env`.
 

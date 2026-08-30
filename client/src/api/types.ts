@@ -58,8 +58,11 @@ export type PantryCategory = {
   name: string
 }
 
+export type PantryItemSource = 'Manual' | 'PantryScan'
+
 export type PantryItem = {
   id: number
+  ingredientId: number | null
   name: string
   quantity: number
   unit: PantryUnit
@@ -67,6 +70,7 @@ export type PantryItem = {
   expiryDate: string | null
   expiryStatus: ExpiryStatus
   daysUntilExpiry: number | null
+  source: PantryItemSource
   createdAt: string
   updatedAt: string
 }
@@ -95,6 +99,39 @@ export type PantryItemPayload = {
   unit: PantryUnit
   categoryName: string
   expiryDate?: string | null
+}
+
+export type PantryScanStatus = 'Processing' | 'Completed' | 'Failed'
+
+export type PantryScanDetectedItem = {
+  id: number
+  ingredientId: number | null
+  name: string
+  quantity: number | null
+  unit: string | null
+  confidence: number | null
+  needsQuantityConfirmation: boolean
+}
+
+export type PantryScanResponse = {
+  scanId: number
+  status: PantryScanStatus
+  items: PantryScanDetectedItem[]
+}
+
+export type ConfirmPantryScanItemPayload = {
+  ingredientId: number
+  quantity: number
+  unit: PantryUnit
+}
+
+export type ConfirmPantryScanPayload = {
+  items: ConfirmPantryScanItemPayload[]
+}
+
+export type ConfirmPantryScanResponse = {
+  addedOrUpdatedCount: number
+  items: PantryItem[]
 }
 
 export type MealType = 'Breakfast' | 'Lunch' | 'Dinner' | 'Dessert'

@@ -950,6 +950,12 @@
   gap: 16px;
 }
 
+.pantry-panel__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 .pantry-toolbar {
   display: grid;
   grid-template-columns: minmax(0, 1.4fr) minmax(160px, 0.8fr);
@@ -972,6 +978,119 @@
 
 .pantry-panel__add {
   justify-self: start;
+}
+
+.pantry-panel__scan {
+  justify-self: start;
+}
+
+.pantry-scan {
+  display: grid;
+  gap: 20px;
+}
+
+.pantry-scan__top {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.pantry-scan__preview {
+  overflow: hidden;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-line);
+  background: color-mix(in srgb, var(--color-ivory) 70%, white);
+}
+
+.pantry-scan__image {
+  display: block;
+  width: 100%;
+  max-height: 420px;
+  object-fit: contain;
+}
+
+.pantry-scan__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.pantry-scan-review {
+  display: grid;
+  gap: 20px;
+}
+
+.pantry-scan-review__title {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--color-espresso);
+}
+
+.pantry-scan-review__lede {
+  color: var(--color-ink-muted);
+}
+
+.pantry-scan-review__list {
+  display: grid;
+  gap: 12px;
+}
+
+.pantry-scan-item {
+  display: grid;
+  gap: 12px;
+  padding: 16px;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  background: white;
+}
+
+.pantry-scan-item__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.pantry-scan-item__include {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+}
+
+.pantry-scan-item__confidence {
+  font-size: 0.85rem;
+  color: var(--color-ink-muted);
+}
+
+.pantry-scan-item__fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.pantry-scan-success {
+  display: grid;
+  gap: 16px;
+  text-align: center;
+  padding: 12px 0 8px;
+}
+
+.pantry-scan-success__title {
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  color: var(--color-espresso);
+}
+
+.pantry-scan-success__lede {
+  color: var(--color-ink-muted);
+}
+
+.pantry-scan-success__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
 }
 
 .pantry-summary {
@@ -1226,6 +1345,10 @@
   }
 
   .pantry-form__row {
+    grid-template-columns: 1fr;
+  }
+
+  .pantry-scan-item__fields {
     grid-template-columns: 1fr;
   }
 

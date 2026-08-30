@@ -227,6 +227,35 @@ export const pantryPage = {
     count === 1 ? '1 item expired' : `${count} items expired`,
   increaseQuantity: 'Increase quantity',
   decreaseQuantity: 'Decrease quantity',
+  scan: 'Scan pantry',
+} as const
+
+export const pantryScanPage = {
+  title: 'Scan your pantry',
+  lede: 'Take a photo of your fridge or pantry and ChefMate AI will identify the ingredients.',
+  takePhoto: 'Take photo',
+  uploadImage: 'Upload image',
+  retake: 'Retake',
+  scanAction: 'Scan',
+  scanning: 'ChefMate AI is looking through your pantry…',
+  reviewTitle: 'ChefMate found these ingredients',
+  reviewLede: 'Review quantities, remove anything incorrect, then add to your pantry.',
+  needsQuantity: 'Please confirm quantity',
+  confidence: (value: number) => `${Math.round(value * 100)}% confident`,
+  remove: 'Remove',
+  addMissing: 'Add missing ingredient',
+  addToPantry: 'Add to my pantry',
+  confirming: 'Updating your pantry…',
+  successTitle: 'Your pantry has been updated!',
+  successCount: (count: number) =>
+    count === 1 ? '1 ingredient added to your pantry.' : `${count} ingredients added to your pantry.`,
+  viewPantry: 'View my pantry',
+  findRecipes: 'Find recipes',
+  noIngredients: 'No ingredients could be confidently identified. Try taking a clearer photo.',
+  scanError: 'Could not scan this image. Please try again.',
+  confirmError: 'Could not update your pantry. Please try again.',
+  invalidImage: 'Choose a JPG, PNG, or WEBP image.',
+  back: 'Back to pantry',
 } as const
 
 export const aiSection: SectionCopy = {

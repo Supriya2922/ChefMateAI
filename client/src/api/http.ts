@@ -88,3 +88,28 @@ export async function apiFetch<T>(path: string, init: RequestInit = {}): Promise
 
   return data as T
 }
+
+export async function apiFetchForm<T>(path: string, formData: FormData): Promise<T> {
+  const token = getToken()
+  const headers = new Headers()
+  headers.set('Accept', 'application/json')
+
+  if (token) {
+    headers.set('Authorization', `Bearer ${token}`)
+  }
+
+  const response = await fetch(`${apiBase()}${path}`, {
+    method: 'POST',
+    headers,
+    body: formData,
+  })
+
+  const text = await response.text()
+  const data = text ? (JSON.parse(text) as unknown) : null
+
+  if (!response.ok) {
+    throw new ApiError(response.status, readErrors(data))
+  }
+
+  return data as T
+}
